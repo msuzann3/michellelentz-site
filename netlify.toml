@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/about"
+  to = "/resume/"
+  status = 301
+
+[[redirects]]
+  from = "/about/"
+  to = "/resume/"
+  status = 301

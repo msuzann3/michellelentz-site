@@ -1,0 +1,14 @@
+{
+  "name": "Michelle Lentz",
+  "short_name": "Michelle Lentz",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0D1B35",
+  "background_color": "#F8FAFC",
+  "display": "standalone"
+}
