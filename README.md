@@ -2,9 +2,9 @@
 
 Static personal/professional website for Michelle Lentz.
 
-Live site: https://michelleslentz.com  
-Repository: https://github.com/msuzann3/michellelentz-site  
-Hosting: Netlify  
+Live site: https://www.michelleslentz.com
+Repository: https://github.com/msuzann3/michellelentz-site
+Hosting: GitHub Pages
 Domain/DNS: GoDaddy
 
 ## Project Purpose
@@ -23,7 +23,9 @@ The project was recovered from a Netlify deploy ZIP and then refined in Codex. K
 - `assets/site.css` - Shared styles
 - `assets/` - Favicons, avatar, Open Graph image, and shared visual assets
 - `samples/ai-academy-ethics/` - Hosted Storyline sample
-- `netlify.toml` - Netlify publish configuration
+- `about/index.html` - Static redirect from `/about/` to the About page
+- `CNAME` - GitHub Pages custom domain marker for `www.michelleslentz.com`
+- `.nojekyll` - Tells GitHub Pages to publish the static files as-is
 - `deployment.md` - Deployment notes
 - `site.webmanifest` - Web app/favicons manifest
 
@@ -81,21 +83,25 @@ Then visit:
 http://localhost:8080
 ```
 
-## Netlify
+## GitHub Pages
 
-Netlify should publish the project root.
+GitHub Pages should publish from the `main` branch at the repository root.
 
-Build settings:
+Repository settings:
 
 - Build command: none
-- Publish directory: `.`
+- Source: deploy from a branch
+- Branch: `main`
+- Folder: `/ (root)`
+- Custom domain: `www.michelleslentz.com`
 
-`netlify.toml` already sets:
+The `CNAME` file should contain:
 
-```toml
-[build]
-  publish = "."
+```text
+www.michelleslentz.com
 ```
+
+At GoDaddy, point `www` to the GitHub Pages default domain for this repo and point the apex domain records at GitHub Pages so `michelleslentz.com` redirects to `www.michelleslentz.com`.
 
 ## Working Across Laptops
 
@@ -107,7 +113,7 @@ Recommended workflow:
 2. Make site edits.
 3. Update `CHANGELOG.md` with the session date and files changed.
 4. Commit and push.
-5. Let Netlify deploy from GitHub.
+5. Let GitHub Pages deploy from GitHub.
 
 ## Codex Session Checklist
 

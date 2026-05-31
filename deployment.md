@@ -6,18 +6,32 @@ This is a static website. There is no build step.
 
 Open `index.html` directly, or run a local static server from this folder.
 
-## Netlify preview
+## GitHub Pages hosting
 
-Netlify is optional. Use it when you want a shareable preview link:
+GitHub Pages is the production host for this site.
 
-1. Create a new Netlify site.
-2. Drag this folder into Netlify Drop, or connect a Git repository later.
-3. Publish directory: the project root.
-4. Build command: none.
+Repository settings:
+
+1. Source: deploy from a branch.
+2. Branch: `main`.
+3. Folder: `/ (root)`.
+4. Custom domain: `www.michelleslentz.com`.
+
+The repo includes a `CNAME` file for the custom domain and a `.nojekyll` file so GitHub Pages publishes the static files as-is.
+
+## GoDaddy DNS for GitHub Pages
+
+At GoDaddy, replace the old Netlify records with GitHub Pages records:
+
+- `www` should be a `CNAME` record pointing to `msuzann3.github.io`.
+- The apex/root domain should use these GitHub Pages `A` records: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`.
+- If GoDaddy supports IPv6 records, add these GitHub Pages `AAAA` records too: `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, and `2606:50c0:8003::153`.
+
+After DNS updates, return to the GitHub Pages settings and enable HTTPS once GitHub finishes checking the domain.
 
 ## GoDaddy hosting
 
-For GoDaddy static hosting, upload the contents of this folder so that `index.html` is at the web root. Keep the folder structure intact:
+If GitHub Pages is unavailable, GoDaddy static hosting is the fallback. Upload the contents of this folder so that `index.html` is at the web root. Keep the folder structure intact:
 
 - `assets/`
 - `work/`
