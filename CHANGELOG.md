@@ -4,6 +4,23 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-05-31
 
+Confirmed GitHub Pages HTTPS is provisioned and enforced. Updated the repo to match the live apex-domain setup at `https://michelleslentz.com/`, with `www` redirecting to the apex domain.
+
+Files changed:
+
+- `CNAME`
+- `README.md`
+- `deployment.md`
+- `CHANGELOG.md`
+- `index.html`
+- `resume/index.html`
+- `work/index.html`
+- `writing/index.html`
+- `speaking/index.html`
+- `site.webmanifest`
+
+## 2026-05-31
+
 Prepared the site to move production hosting from Netlify to GitHub Pages after the live domain began returning Netlify `503` responses.
 
 Files changed:

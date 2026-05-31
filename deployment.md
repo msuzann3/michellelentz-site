@@ -15,7 +15,8 @@ Repository settings:
 1. Source: deploy from a branch.
 2. Branch: `main`.
 3. Folder: `/ (root)`.
-4. Custom domain: `www.michelleslentz.com`.
+4. Custom domain: `michelleslentz.com`.
+5. Enforce HTTPS: enabled.
 
 The repo includes a `CNAME` file for the custom domain and a `.nojekyll` file so GitHub Pages publishes the static files as-is.
 
@@ -27,7 +28,7 @@ At GoDaddy, replace the old Netlify records with GitHub Pages records:
 - The apex/root domain should use these GitHub Pages `A` records: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`.
 - If GoDaddy supports IPv6 records, add these GitHub Pages `AAAA` records too: `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, and `2606:50c0:8003::153`.
 
-After DNS updates, return to the GitHub Pages settings and enable HTTPS once GitHub finishes checking the domain.
+HTTPS is provisioned and enforced. The live site resolves at `https://michelleslentz.com/`, and `https://www.michelleslentz.com/` redirects to the apex domain.
 
 ## GoDaddy hosting
 

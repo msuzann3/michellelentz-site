@@ -2,10 +2,11 @@
 
 Static personal/professional website for Michelle Lentz.
 
-Live site: https://www.michelleslentz.com
+Live site: https://michelleslentz.com
 Repository: https://github.com/msuzann3/michellelentz-site
 Hosting: GitHub Pages
 Domain/DNS: GoDaddy
+HTTPS: Enforced
 
 ## Project Purpose
 
@@ -24,7 +25,7 @@ The project was recovered from a Netlify deploy ZIP and then refined in Codex. K
 - `assets/` - Favicons, avatar, Open Graph image, and shared visual assets
 - `samples/ai-academy-ethics/` - Hosted Storyline sample
 - `about/index.html` - Static redirect from `/about/` to the About page
-- `CNAME` - GitHub Pages custom domain marker for `www.michelleslentz.com`
+- `CNAME` - GitHub Pages custom domain marker for `michelleslentz.com`
 - `.nojekyll` - Tells GitHub Pages to publish the static files as-is
 - `deployment.md` - Deployment notes
 - `site.webmanifest` - Web app/favicons manifest
@@ -93,15 +94,16 @@ Repository settings:
 - Source: deploy from a branch
 - Branch: `main`
 - Folder: `/ (root)`
-- Custom domain: `www.michelleslentz.com`
+- Custom domain: `michelleslentz.com`
+- Enforce HTTPS: enabled
 
 The `CNAME` file should contain:
 
 ```text
-www.michelleslentz.com
+michelleslentz.com
 ```
 
-At GoDaddy, point `www` to the GitHub Pages default domain for this repo and point the apex domain records at GitHub Pages so `michelleslentz.com` redirects to `www.michelleslentz.com`.
+At GoDaddy, point `www` to the GitHub Pages default domain for this repo and point the apex domain records at GitHub Pages. The live site resolves at `https://michelleslentz.com/`, with `https://www.michelleslentz.com/` redirecting to the apex domain.
 
 ## Working Across Laptops
 
