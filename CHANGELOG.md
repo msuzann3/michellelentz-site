@@ -2,6 +2,27 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-06-03
+
+Added a one-page portfolio case study for the n8n/GPT-4o Musical Grammar Rectifier workflow, including a Work page entry beside the AI Suitability Matrix, live n8n form links, workflow notes, troubleshooting lessons, and next-iteration ideas around governance and expanded output.
+
+Files changed:
+
+- `work/the-whom/index.html`
+- `work/index.html`
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-06-01
+
+Added a README note that the current working directory should be kept in iCloud under `Documents/_AI-Workspace/Codex` for cross-laptop continuity.
+
+Files changed:
+
+- `README.md`
+- `CHANGELOG.md`
+
 ## 2026-05-31
 
 Confirmed GitHub Pages HTTPS is provisioned and enforced. Updated the repo to match the live apex-domain setup at `https://michelleslentz.com/`, with `www` redirecting to the apex domain.

@@ -1,5 +1,7 @@
 # Michelle Lentz Personal Site
 
+Current working directory note: this project should live in iCloud under `Documents/_AI-Workspace/Codex` so it stays available across Michelle's Codex laptops.
+
 Static personal/professional website for Michelle Lentz.
 
 Live site: https://michelleslentz.com
@@ -19,6 +21,7 @@ The project was recovered from a Netlify deploy ZIP and then refined in Codex. K
 - `index.html` - Home page
 - `resume/index.html` - About page
 - `work/index.html` - Portfolio/work samples
+- `work/the-whom/index.html` - Musical Grammar Rectifier n8n/GPT-4o workflow case study
 - `writing/index.html` - Writing, books, guides, and articles
 - `speaking/index.html` - Speaking, workshops, podcasts, and interviews
 - `assets/site.css` - Shared styles

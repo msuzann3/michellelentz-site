@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Musical Grammar Rectifier | Michelle Lentz</title>
+    <meta name="description" content="A humorous n8n workflow automation example that uses GPT-4o to correct the grammar of classic rock song titles.">
+    <link rel="stylesheet" href="../../assets/site.css">
+    <link rel="canonical" href="https://michelleslentz.com/work/the-whom/">
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="../../assets/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
+    <link rel="manifest" href="../../site.webmanifest">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Musical Grammar Rectifier | Michelle Lentz">
+    <meta property="og:description" content="A humorous n8n workflow automation example that uses GPT-4o to correct the grammar of classic rock song titles.">
+    <meta property="og:url" content="https://michelleslentz.com/work/the-whom/">
+    <meta property="og:image" content="https://michelleslentz.com/assets/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://plausible.io/js/pa-q9z8iKikCBhOG72wl4P4l.js"></script>
+    <script>
+      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="../../index.html">Michelle Lentz</a>
+        <div class="nav-links">
+          <a href="../../resume/index.html">About</a>
+          <a href="../../writing/index.html">Writing</a>
+          <a href="../../speaking/index.html">Speaking</a>
+          <a href="../../work/index.html" aria-current="page">Work</a>
+          <a class="nav-cta" href="https://www.linkedin.com/in/michelleslentz" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="section tight">
+        <div class="wrap simple-case-grid">
+          <article class="simple-case-copy">
+            <span class="eyebrow">n8n workflow automation</span>
+            <h1>Musical Grammar Rectifier</h1>
+            <p class="lede">A joke on Threads became a working automation: submit a grammatically challenged song title, and GPT-4o returns a pompous correction from the Grand Curator of the Institute for Musical Grammar Rectification.</p>
+            <p class="muted">The workflow is intentionally small: Form Trigger to OpenAI to Edit Fields to Form Ending. The useful part is the prompt architecture, structured JSON output, and the many tiny lessons hiding inside a silly experiment.</p>
+            <div class="tag-row case-tags"><span class="tag emerald">n8n</span><span class="tag">GPT-4o</span><span class="tag">Prompt design</span><span class="tag">Automation</span></div>
+          </article>
+
+          <aside class="form-preview">
+            <p class="meta">Interactive prototype</p>
+            <h2>Try the Musical Grammar Rectifier</h2>
+            <p class="muted">Launch the working n8n prototype in a new window, then come back here for the project notes and lessons learned.</p>
+            <div class="case-actions">
+              <a class="button primary" href="https://msuzann3.app.n8n.cloud/form/2b96aec0-5aaa-42f3-975f-f7d28116dc34" target="_blank" rel="noopener noreferrer">Launch prototype</a>
+              <a class="button secondary" href="../index.html">Back to portfolio</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section sky">
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">How it works</span>
+              <h2>Four nodes, one very offended scholar</h2>
+            </div>
+          </div>
+          <div class="workflow-strip" aria-label="n8n workflow sequence">
+            <article>
+              <span>01</span>
+              <h3>Form Trigger</h3>
+              <p>Collects a song title and optional band name.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>OpenAI</h3>
+              <p>Runs GPT-4o with a persistent Curator persona.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Edit Fields</h3>
+              <p>Parses the response into structured fields.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Form Ending</h3>
+              <p>Displays the decree back to the submitter.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap two-col">
+          <article class="feature-card">
+            <span class="eyebrow">Prompt engineering</span>
+            <h2>System and User messages did different jobs.</h2>
+            <p class="muted">The System message establishes the Curator as a consistent character. The User message sends each new song title as a fresh request. That split keeps the personality stable without repeating the full persona instructions every time.</p>
+            <p class="muted">The model returns raw JSON with four fields: <code>original</code>, <code>corrected</code>, <code>band_correction</code>, and <code>curator_note</code>.</p>
+          </article>
+          <article class="feature-card">
+            <span class="eyebrow">What broke</span>
+            <h2>The interesting failures were invisible at first.</h2>
+            <p class="muted">The Respond to Webhook node did not work with the n8n Form Trigger, so the workflow needed a Form Ending node. Fixed vs Expression mode also caused the AI to receive literal template text instead of the submitted song title.</p>
+            <p class="muted">The lesson: test each node individually, especially when a failure looks like a creativity problem but is really a field-mapping problem.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section dark">
+        <div class="wrap split">
+          <div>
+            <span class="eyebrow">Next version</span>
+            <h2>More fun, more governance</h2>
+          </div>
+          <div>
+            <p class="lede">The next iteration would add a second AI call that writes a fake concert-hall program description for the corrected song title. It also needs guardrails before wider use, because a public input field is always an invitation to discover why governance exists.</p>
+            <div class="actions">
+              <a class="button primary" href="https://msuzann3.app.n8n.cloud/form/2b96aec0-5aaa-42f3-975f-f7d28116dc34" target="_blank" rel="noopener noreferrer">Launch prototype</a>
+              <a class="button secondary" href="../index.html">Back to portfolio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="../../index.html">Michelle Lentz</a>
+          <p class="muted">Seattle, Washington</p>
+          <p class="muted">AI automation, prompt design, and practical experiments with a sense of humor.</p>
+          <p class="muted">Open to alternative time zones, travel, and relocation.</p>
+        </div>
+        <div class="footer-side">
+          <div class="footer-links">
+            <a href="https://www.linkedin.com/in/michelleslentz" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.instagram.com/agirl.and.herdog" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="mailto:michelle@innovate-elevate.ai">Email</a>
+            <a href="../../work/index.html">Work</a>
+          </div>
+          <p class="muted copyright">© All content copyright Michelle S. Lentz 1998-2025.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

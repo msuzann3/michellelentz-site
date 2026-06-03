@@ -501,6 +501,79 @@ p {
   object-fit: contain;
 }
 
+.simple-case-grid {
+  align-items: start;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.46fr);
+}
+
+.simple-case-copy {
+  max-width: 760px;
+}
+
+.case-tags {
+  margin-top: 1.5rem;
+}
+
+.form-preview {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding: 1.35rem;
+}
+
+.form-preview h2 {
+  font-size: clamp(1.7rem, 4vw, 2.4rem);
+}
+
+.case-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  margin-top: 0.4rem;
+}
+
+.case-actions .button {
+  width: 100%;
+}
+
+.workflow-strip {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 2.4rem;
+}
+
+.workflow-strip article {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.1rem;
+}
+
+.workflow-strip span {
+  color: var(--emerald);
+  display: block;
+  font-family: "Syne", Arial, sans-serif;
+  font-size: 1.55rem;
+  font-weight: 600;
+  margin-bottom: 1.1rem;
+}
+
+.workflow-strip h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.45rem;
+}
+
+.workflow-strip p {
+  color: var(--text-mid);
+}
+
 .filter-note {
   background: var(--white);
   border: 1px solid var(--border);
@@ -627,6 +700,7 @@ p {
 @media (max-width: 900px) {
   .hero-grid,
   .split,
+  .simple-case-grid,
   .page-hero.with-avatar .wrap,
   .resume-grid {
     grid-template-columns: 1fr;
@@ -648,7 +722,8 @@ p {
   }
 
   .intro-grid,
-  .card-grid {
+  .card-grid,
+  .workflow-strip {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -683,6 +758,7 @@ p {
 
   .intro-grid,
   .card-grid,
+  .workflow-strip,
   .two-col {
     grid-template-columns: 1fr;
   }
