@@ -1,6 +1,6 @@
 # Michelle Lentz Personal Site
 
-Current working directory note: this project should live in iCloud under `Documents/_AI-Workspace/Codex` so it stays available across Michelle's Codex laptops.
+Current working directory note: this MacBook Pro uses `/Users/michelle/Documents/_AI-Workspace/Codex/michelleslentz-site`. Michelle's MacBook Air is named `dolly` and may have a different path before `Documents`, but both machines should match from `Documents/_AI-Workspace/Codex/michelleslentz-site` onward so iCloud keeps the project synced.
 
 Static personal/professional website for Michelle Lentz.
 
@@ -110,23 +110,26 @@ At GoDaddy, point `www` to the GitHub Pages default domain for this repo and poi
 
 ## Working Across Laptops
 
-Use GitHub as the source of truth and iCloud as a convenience sync layer.
+Use GitHub as the source of truth and iCloud as a convenience sync layer. The project folder should remain `Documents/_AI-Workspace/Codex/michelleslentz-site` from the `Documents` folder onward so it stays synced between Michelle's MacBook Pro and MacBook Air (`dolly`).
 
 Recommended workflow:
 
 1. Pull latest changes before editing.
-2. Make site edits.
-3. Update `CHANGELOG.md` with the session date and files changed.
-4. Commit and push.
-5. Let GitHub Pages deploy from GitHub.
+2. Read `README.md` and `CHANGELOG.md` at the beginning of each Codex session.
+3. Make site edits.
+4. Update `README.md` and `CHANGELOG.md` whenever project context, workflow, or files change.
+5. Commit and push.
+6. Let GitHub Pages deploy from GitHub.
 
 ## Codex Session Checklist
 
 When Codex edits this site:
 
-1. Inspect relevant files before editing.
-2. Preserve the static structure and existing design patterns.
-3. Verify local links/assets where practical.
-4. Verify external links include `target="_blank"` and `rel="noopener noreferrer"`.
-5. Update `CHANGELOG.md`.
-6. Tell Michelle exactly which files changed.
+1. Confirm the project folder is `Documents/_AI-Workspace/Codex/michelleslentz-site`.
+2. Read `README.md` and `CHANGELOG.md` before making changes.
+3. Inspect relevant files before editing.
+4. Preserve the static structure and existing design patterns.
+5. Verify local links/assets where practical.
+6. Verify external links include `target="_blank"` and `rel="noopener noreferrer"`.
+7. Update `README.md` and `CHANGELOG.md` for meaningful changes.
+8. Tell Michelle exactly which files changed.

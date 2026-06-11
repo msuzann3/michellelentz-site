@@ -2,6 +2,15 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-06-11
+
+Clarified the permanent synced project folder location, noted that this machine is the MacBook Pro and the MacBook Air is named `dolly`, and made the README/CHANGELOG check-in workflow explicit for the start of each Codex session and after meaningful changes.
+
+Files changed:
+
+- `README.md`
+- `CHANGELOG.md`
+
 ## 2026-06-03
 
 Added a one-page portfolio case study for the n8n/GPT-4o Musical Grammar Rectifier workflow, including a Work page entry beside the AI Suitability Matrix, live n8n form links, workflow notes, troubleshooting lessons, and next-iteration ideas around governance and expanded output.
