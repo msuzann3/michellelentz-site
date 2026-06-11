@@ -69,6 +69,9 @@ Avatar:
 - Footer on each main page should include:
   Michelle Lentz, Seattle, Washington, a page-specific sentence, and "Open to alternative time zones, travel, and relocation."
 - The AI Governance document belongs in Writing/archive context, not as a homepage feature.
+- The AI-Ready Recruiting Workshop belongs in the top Work page section after the first three featured AI cards. Link to the individual PDFs and the shared Drive folder from the card.
+- Recent hour-long conference sessions can count as training/workshop samples when they include activities, handouts, live polling, audience interaction, or facilitation design. Keep AI/change sessions in the top Work section and non-AI learning design sessions in the Learning + writing section.
+- During interview prep, the Work page may temporarily prioritize training samples at the top of the Current AI work section, with broader AI tools and site builds moved after training evidence.
 - The Storyline sample under `samples/ai-academy-ethics/` should remain intact.
 
 ## Local Preview

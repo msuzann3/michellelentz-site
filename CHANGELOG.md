@@ -4,6 +4,54 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-06-11
 
+Added Grammar Girl back to the Archive section as a late-1990s style-guide site that was written up in USA Today in 1998.
+
+Files changed:
+
+- `work/index.html`
+- `CHANGELOG.md`
+
+## 2026-06-11
+
+Added Neon Pop Quiz GPT to the Archive section and confirmed the Grammar Review Bot URL.
+
+Files changed:
+
+- `work/index.html`
+- `CHANGELOG.md`
+
+## 2026-06-11
+
+Reordered the Work page for interview review so training samples lead the Current AI work section, with the three AI/change conference sessions grouped together and the site-build cards moved to the end. Updated conference-session titles and descriptions, revised the Core4 hybrid-session wording, and moved the 2023 UPS MyHR/Workday item near the top of Additional work samples as a training module.
+
+Files changed:
+
+- `work/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-06-11
+
+Added four recent hour-long conference sessions as training/workshop samples: Brain, Heart, and Courage; Positive Change Management for HR; Brave New Learning; and Muppet Magic for Next-Gen Learning. Kept the three AI/change management sessions in the top Work section and placed the non-AI Core4 hybrid session in Learning + writing.
+
+Files changed:
+
+- `work/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-06-11
+
+Added a top-section Work page card for the AI-Ready Recruiting Workshop, a recent instructor-led training sample for L&D recruiters evaluating AI skills. Linked directly to the participant guide, slides PDF, handout, interview Q&A examples, and the full shared Google Drive folder.
+
+Files changed:
+
+- `work/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-06-11
+
 Clarified the permanent synced project folder location, noted that this machine is the MacBook Pro and the MacBook Air is named `dolly`, and made the README/CHANGELOG check-in workflow explicit for the start of each Codex session and after meaningful changes.
 
 Files changed:
