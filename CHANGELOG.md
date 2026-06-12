@@ -4,6 +4,16 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-06-12
 
+Repaired the AI Academy Storyline sample so GitHub Pages can load the generated course assets with the exact mixed-case filenames Storyline references. Confirmed the course starts locally from `http://localhost:8080/samples/ai-academy-ethics/` and displays the welcome slide instead of the blank player.
+
+Files changed:
+
+- `samples/ai-academy-ethics/`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-06-12
+
 Updated the Work page links for the AI Organizational Readiness Tool and Structured Prompt Tool to their current Claude URLs.
 
 Files changed:
