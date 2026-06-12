@@ -2,6 +2,15 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-06-12
+
+Updated the Work page links for the AI Organizational Readiness Tool and Structured Prompt Tool to their current Claude URLs.
+
+Files changed:
+
+- `work/index.html`
+- `CHANGELOG.md`
+
 ## 2026-06-11
 
 Added Grammar Girl back to the Archive section as a late-1990s style-guide site that was written up in USA Today in 1998.
