@@ -4,6 +4,15 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-06-12
 
+Updated the Structured Prompt Tool card to use the public Claude artifact URL instead of a logged-in Claude chat artifact URL.
+
+Files changed:
+
+- `work/index.html`
+- `CHANGELOG.md`
+
+## 2026-06-12
+
 Repaired the AI Academy Storyline sample so GitHub Pages can load the generated course assets with the exact mixed-case filenames Storyline references. Confirmed the course starts locally from `http://localhost:8080/samples/ai-academy-ethics/` and displays the welcome slide instead of the blank player.
 
 Files changed:
