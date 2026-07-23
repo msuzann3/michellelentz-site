@@ -4,6 +4,17 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-07-23
 
+Added Michelle's intended Firebase-backend rebuild to the archived BrandonBot description. Added Brain, Heart, and Courage as an upcoming February 2027 session at Training 2027 Conference & Expo, using the ATD session title and description and linking to the conference site.
+
+Files changed:
+
+- `work/index.html`
+- `speaking/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-07-23
+
 Moved the Code Translator into the third position in Current AI work, ahead of the Brain, Heart, and Courage session. Expanded the card to identify its Python backend and JavaScript, CSS, and HTML interface and static pieces.
 
 Files changed:

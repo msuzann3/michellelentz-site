@@ -72,6 +72,8 @@ Avatar:
 - The AI-Ready Recruiting Workshop belongs in the top Work page section after the first three featured AI cards. Link to the individual PDFs and the shared Drive folder from the card.
 - The top Work page section currently leads with the 2026 agentic AI Organizational Readiness Tool, AI Suitability Matrix, and Code Translator, followed by Brain/Heart/Courage, Brave New Learning, AI Academy, Positive Change Management, Recruiting, AI SME work, Orchestra, Prompting Tool, Musical Grammar, and the two website cards.
 - The AI Organizational Readiness Tool now lives at `https://ready.innovate-elevate.ai`.
+- The Speaking page leads with the upcoming Brain, Heart, and Courage session at Training 2027 Conference & Expo in February 2027, followed by the September 2026 TechLearn session and May 2026 ATD presentation.
+- The archived BrandonBot card notes Michelle's intention to rebuild the custom GPT with a Firebase backend.
 - Recent hour-long conference sessions can count as training/workshop samples when they include activities, handouts, live polling, audience interaction, or facilitation design. Keep AI/change sessions in the top Work section and non-AI learning design sessions in the Learning + writing section.
 - During interview prep, the Work page may temporarily prioritize training samples at the top of the Current AI work section, with broader AI tools and site builds moved after training evidence.
 - The Storyline sample under `samples/ai-academy-ethics/` should remain intact. Storyline-generated asset filenames are case-sensitive on GitHub Pages, even when they appear to work locally on macOS, so preserve the exact mixed-case filenames and referenced asset locations from the export.
