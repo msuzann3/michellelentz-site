@@ -2,6 +2,26 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-07-23
+
+Added the Code Translator to the Current AI work section of the Work page. The external card opens the live Replit app in a new tab and describes its audience-specific explanations for engineers, product managers, and executives.
+
+Files changed:
+
+- `work/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-06-26
+
+Reordered the top Work page section to lead with the 2026 AI Organizational Readiness Tool, AI Suitability Matrix, and Brain/Heart/Courage session, then follow Michelle's requested row order through the AI/change, recruiting, SME, prompting, Musical Grammar, and website cards. Updated the Organizational Readiness Tool card for agentic AI and pointed it to `https://ready.innovate-elevate.ai`.
+
+Files changed:
+
+- `work/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
 ## 2026-06-12
 
 Updated the Structured Prompt Tool card to use the public Claude artifact URL instead of a logged-in Claude chat artifact URL.
