@@ -4,6 +4,16 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-07-23
 
+Moved the Code Translator into the third position in Current AI work, ahead of the Brain, Heart, and Courage session. Expanded the card to identify its Python backend and JavaScript, CSS, and HTML interface and static pieces.
+
+Files changed:
+
+- `work/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-07-23
+
 Added the Code Translator to the Current AI work section of the Work page. The external card opens the live Replit app in a new tab and describes its audience-specific explanations for engineers, product managers, and executives.
 
 Files changed:
