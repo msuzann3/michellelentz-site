@@ -4,6 +4,18 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-07-28
 
+Added compact "On this page" section menus below the Work and Speaking page heroes. Each menu links to every major page section, with smooth scrolling, sticky-header offset, responsive wrapping, and accessible navigation labels.
+
+Files changed:
+
+- `work/index.html`
+- `speaking/index.html`
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-07-28
+
 Updated the Musical Grammar Rectifier Work card so its internal case-study link opens in a new tab.
 
 Files changed:

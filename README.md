@@ -75,6 +75,7 @@ Avatar:
 - The Open Weights card highlights the interactive six-knob explainer at `https://msuzann3.github.io/explainers/0727/` and includes the related LinkedIn post as a secondary link.
 - The Musical Grammar Rectifier card links to the internal `work/the-whom/` case study but intentionally opens it in a new tab.
 - The AI Organizational Readiness Tool now lives at `https://ready.innovate-elevate.ai`.
+- The Work and Speaking pages include compact "On this page" menus below their hero sections, with anchored links to every major content section.
 - The Speaking page leads with the upcoming Brain, Heart, and Courage session at Training 2027 Conference & Expo in February 2027, followed by the September 2026 TechLearn session and May 2026 ATD presentation.
 - The archived BrandonBot card notes Michelle's intention to rebuild the custom GPT with a Firebase backend.
 - Recent hour-long conference sessions can count as training/workshop samples when they include activities, handouts, live polling, audience interaction, or facilitation design. Keep AI/change sessions in the top Work section and non-AI learning design sessions in the Learning + writing section.
