@@ -4,6 +4,16 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-07-28
 
+Updated the Musical Grammar Rectifier Work card so its internal case-study link opens in a new tab.
+
+Files changed:
+
+- `work/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-07-28
+
 Added the Vinyl Curator MSc in AI in Business capstone, including the 4.0 result and its verified React/TypeScript/Firebase/Firestore/Express stack. Added Open Weights with the interactive explainer as the primary experience and the related LinkedIn post as a secondary link. Reordered the Current AI work grid into Michelle's requested five rows.
 
 Files changed:

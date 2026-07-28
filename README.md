@@ -73,6 +73,7 @@ Avatar:
 - The top Work page section is arranged in five rows: Readiness Assessment, Suitability Matrix, and Vinyl Curator Capstone; Code Translator, AI Orchestra, and Open Weights; Change Management and Governance SME work, Brain/Heart/Courage, and AI Academy; AI-Ready Recruiting Workshop, Structured Prompt Tool, and Musical Grammar Rectifier; then Positive Change Management and the two website cards.
 - The Vinyl Curator Capstone card links to `https://capstone.curatevinyl.com`, records the 4.0 MSc in AI in Business result, and describes the verified React/TypeScript/Firebase/Firestore/Express stack.
 - The Open Weights card highlights the interactive six-knob explainer at `https://msuzann3.github.io/explainers/0727/` and includes the related LinkedIn post as a secondary link.
+- The Musical Grammar Rectifier card links to the internal `work/the-whom/` case study but intentionally opens it in a new tab.
 - The AI Organizational Readiness Tool now lives at `https://ready.innovate-elevate.ai`.
 - The Speaking page leads with the upcoming Brain, Heart, and Courage session at Training 2027 Conference & Expo in February 2027, followed by the September 2026 TechLearn session and May 2026 ATD presentation.
 - The archived BrandonBot card notes Michelle's intention to rebuild the custom GPT with a Firebase backend.
