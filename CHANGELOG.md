@@ -2,6 +2,16 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-07-28
+
+Added the Vinyl Curator MSc in AI in Business capstone, including the 4.0 result and its verified React/TypeScript/Firebase/Firestore/Express stack. Added Open Weights with the interactive explainer as the primary experience and the related LinkedIn post as a secondary link. Reordered the Current AI work grid into Michelle's requested five rows.
+
+Files changed:
+
+- `work/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
 ## 2026-07-23
 
 Added Michelle's intended Firebase-backend rebuild to the archived BrandonBot description. Added Brain, Heart, and Courage as an upcoming February 2027 session at Training 2027 Conference & Expo, using the ATD session title and description and linking to the conference site.

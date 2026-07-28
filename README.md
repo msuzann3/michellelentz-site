@@ -70,7 +70,9 @@ Avatar:
   Michelle Lentz, Seattle, Washington, a page-specific sentence, and "Open to alternative time zones, travel, and relocation."
 - The AI Governance document belongs in Writing/archive context, not as a homepage feature.
 - The AI-Ready Recruiting Workshop belongs in the top Work page section after the first three featured AI cards. Link to the individual PDFs and the shared Drive folder from the card.
-- The top Work page section currently leads with the 2026 agentic AI Organizational Readiness Tool, AI Suitability Matrix, and Code Translator, followed by Brain/Heart/Courage, Brave New Learning, AI Academy, Positive Change Management, Recruiting, AI SME work, Orchestra, Prompting Tool, Musical Grammar, and the two website cards.
+- The top Work page section is arranged in five rows: Readiness Assessment, Suitability Matrix, and Vinyl Curator Capstone; Code Translator, AI Orchestra, and Open Weights; Change Management and Governance SME work, Brain/Heart/Courage, and AI Academy; AI-Ready Recruiting Workshop, Structured Prompt Tool, and Musical Grammar Rectifier; then Positive Change Management and the two website cards.
+- The Vinyl Curator Capstone card links to `https://capstone.curatevinyl.com`, records the 4.0 MSc in AI in Business result, and describes the verified React/TypeScript/Firebase/Firestore/Express stack.
+- The Open Weights card highlights the interactive six-knob explainer at `https://msuzann3.github.io/explainers/0727/` and includes the related LinkedIn post as a secondary link.
 - The AI Organizational Readiness Tool now lives at `https://ready.innovate-elevate.ai`.
 - The Speaking page leads with the upcoming Brain, Heart, and Courage session at Training 2027 Conference & Expo in February 2027, followed by the September 2026 TechLearn session and May 2026 ATD presentation.
 - The archived BrandonBot card notes Michelle's intention to rebuild the custom GPT with a Firebase backend.
