@@ -2,6 +2,17 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-07-29
+
+Added the 16-page AI Governance ebook to the GitHub Pages repository and changed its featured Writing card from Clarity Consultants' moving file location to the stable michelleslentz.com PDF URL. The same public URL can be shared on LinkedIn.
+
+Files changed:
+
+- `writing/from-risk-to-responsibility-ai-governance.pdf`
+- `writing/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
 ## 2026-07-28
 
 Added compact "On this page" section menus below the Work and Speaking page heroes. Each menu links to every major page section, with smooth scrolling, sticky-header offset, responsive wrapping, and accessible navigation labels.
