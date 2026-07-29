@@ -69,7 +69,7 @@ Avatar:
 - Footer on each main page should include:
   Michelle Lentz, Seattle, Washington, a page-specific sentence, and "Open to alternative time zones, travel, and relocation."
 - The AI Governance document belongs in Writing/archive context, not as a homepage feature.
-- The AI Governance document is hosted in this repository at `writing/from-risk-to-responsibility-ai-governance.pdf`; use `https://michelleslentz.com/writing/from-risk-to-responsibility-ai-governance.pdf` as its stable public and LinkedIn URL.
+- The AI Governance document is hosted in this repository at `writing/from-risk-to-responsibility-ai-governance.pdf`; use `https://michelleslentz.com/writing/from-risk-to-responsibility-ai-governance.pdf` as its stable public and LinkedIn URL. Its PDF document properties identify the title as "AI Governance in Your Organization" and the author as Michelle Lentz.
 - The AI-Ready Recruiting Workshop belongs in the top Work page section after the first three featured AI cards. Link to the individual PDFs and the shared Drive folder from the card.
 - The top Work page section is arranged in five rows: Readiness Assessment, Suitability Matrix, and Vinyl Curator Capstone; Code Translator, AI Orchestra, and Open Weights; Change Management and Governance SME work, Brain/Heart/Courage, and AI Academy; AI-Ready Recruiting Workshop, Structured Prompt Tool, and Musical Grammar Rectifier; then Positive Change Management and the two website cards.
 - The Vinyl Curator Capstone card links to `https://capstone.curatevinyl.com`, records the 4.0 MSc in AI in Business result, and describes the verified React/TypeScript/Firebase/Firestore/Express stack.

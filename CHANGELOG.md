@@ -4,6 +4,16 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-07-29
 
+Replaced the hosted AI Governance ebook with Michelle's corrected copy. The visible 16-page document remains unchanged, while its PDF properties now identify the title as "AI Governance in Your Organization" and the author as Michelle Lentz. The public URL remains the same.
+
+Files changed:
+
+- `writing/from-risk-to-responsibility-ai-governance.pdf`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-07-29
+
 Added the 16-page AI Governance ebook to the GitHub Pages repository and changed its featured Writing card from Clarity Consultants' moving file location to the stable michelleslentz.com PDF URL. The same public URL can be shared on LinkedIn.
 
 Files changed:
