@@ -4,6 +4,16 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-03
 
+Removed Michelle's phone number from the public website resume PDF while retaining it in the private ATS Word resume and paste-ready application copy. Updated the resume generator so future public PDF refreshes preserve this privacy choice.
+
+Files changed:
+
+- `resume/technical-writer-editor-resume.pdf`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-03
+
 Corrected Michelle's education status from MSc candidate to completed MSc in AI in Business from Arizona State University. Corrected Write Technology dates to 2003–2013. The downloadable Word resume is now a separate black-only ATS version, while the public website PDF retains the branded visual treatment.
 
 Files changed:
