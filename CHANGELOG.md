@@ -2,6 +2,17 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-08-03
+
+Added a focused, shareable Technical Writing & Editing portfolio for contract prospects. The new page presents six curated, undated samples covering substantive proposal editing, industrial-manual editing, software documentation, style-guide development, enterprise job aids, and AI-governance writing. Added a prominent entry point from the broader Work sample library and documented the permanent route.
+
+Files changed:
+
+- `technical-writing/index.html`
+- `work/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
 ## 2026-07-29
 
 Replaced the hosted AI Governance ebook with Michelle's corrected copy. The visible 16-page document remains unchanged, while its PDF properties now identify the title as "AI Governance in Your Organization" and the author as Michelle Lentz. The public URL remains the same.

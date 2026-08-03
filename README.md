@@ -22,6 +22,7 @@ The project was recovered from a Netlify deploy ZIP and then refined in Codex. K
 - `resume/index.html` - About page
 - `work/index.html` - Portfolio/work samples
 - `work/the-whom/index.html` - Musical Grammar Rectifier n8n/GPT-4o workflow case study
+- `technical-writing/index.html` - Focused technical writing and editing contract portfolio
 - `writing/index.html` - Writing, books, guides, and articles
 - `speaking/index.html` - Speaking, workshops, podcasts, and interviews
 - `assets/site.css` - Shared styles
@@ -69,6 +70,7 @@ Avatar:
 - Footer on each main page should include:
   Michelle Lentz, Seattle, Washington, a page-specific sentence, and "Open to alternative time zones, travel, and relocation."
 - The AI Governance document belongs in Writing/archive context, not as a homepage feature.
+- The focused Technical Writing & Editing portfolio lives at `https://michelleslentz.com/technical-writing/`. It presents six curated, undated samples for contract prospects and links to the broader Work archive for additional evidence.
 - The AI Governance document is hosted in this repository at `writing/from-risk-to-responsibility-ai-governance.pdf`; use `https://michelleslentz.com/writing/from-risk-to-responsibility-ai-governance.pdf` as its stable public and LinkedIn URL. Its PDF document properties identify the title as "AI Governance in Your Organization" and the author as Michelle Lentz.
 - The AI-Ready Recruiting Workshop belongs in the top Work page section after the first three featured AI cards. Link to the individual PDFs and the shared Drive folder from the card.
 - The top Work page section is arranged in five rows: Readiness Assessment, Suitability Matrix, and Vinyl Curator Capstone; Code Translator, AI Orchestra, and Open Weights; Change Management and Governance SME work, Brain/Heart/Courage, and AI Academy; AI-Ready Recruiting Workshop, Structured Prompt Tool, and Musical Grammar Rectifier; then Positive Change Management and the two website cards.
