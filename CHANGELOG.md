@@ -4,6 +4,17 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-03
 
+Corrected Michelle's education status from MSc candidate to completed MSc in AI in Business from Arizona State University. Corrected Write Technology dates to 2003–2013. The downloadable Word resume is now a separate black-only ATS version, while the public website PDF retains the branded visual treatment.
+
+Files changed:
+
+- `resume/technical-writer-editor-resume.pdf`
+- `resume/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-03
+
 Added a focused Technical Writer & Editor resume and made it the primary resume linked from the About and Technical Writing pages. The two-page resume leads with recent documentation and technical-communication work, retains official recent job titles, and presents older direct technical-writing roles as undated selected foundations. A separate paste-ready application text file is maintained outside the published site for online forms.
 
 Files changed:
