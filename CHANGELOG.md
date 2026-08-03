@@ -15,6 +15,7 @@ Files changed:
 - `technical-writing/samples/training-development-style-guide.pdf`
 - `technical-writing/samples/oracle-learning-paths-job-aid.pdf`
 - `writing/from-risk-to-responsibility-ai-governance.pdf`
+- `.gitattributes`
 - `README.md`
 - `CHANGELOG.md`
 
