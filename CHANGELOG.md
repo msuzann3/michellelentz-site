@@ -4,6 +4,22 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-03
 
+Refined the Technical Writing & Editing portfolio before publication. Replaced the unmarked R.A. Jones manual with an undated case study based on Michelle's visible substantive-editing comments in a Brandon Carson article. Created locally hosted portfolio copies of the proposal edit, software quick-start guide, style guide, and Oracle job aid; removed production dates and document timestamps while retaining dates that are necessary to the source content, such as citation years and date-format examples. Replaced private Drive links with stable site links, scrubbed production timestamps from the AI governance PDF metadata, and corrected the new page's footer copyright line to match the rest of the site.
+
+Files changed:
+
+- `technical-writing/index.html`
+- `technical-writing/samples/brandon-carson-substantive-editing-case-study.pdf`
+- `technical-writing/samples/engineering-proposal-edit.pdf`
+- `technical-writing/samples/software-quick-start-guide.pdf`
+- `technical-writing/samples/training-development-style-guide.pdf`
+- `technical-writing/samples/oracle-learning-paths-job-aid.pdf`
+- `writing/from-risk-to-responsibility-ai-governance.pdf`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-03
+
 Added a focused, shareable Technical Writing & Editing portfolio for contract prospects. The new page presents six curated, undated samples covering substantive proposal editing, industrial-manual editing, software documentation, style-guide development, enterprise job aids, and AI-governance writing. Added a prominent entry point from the broader Work sample library and documented the permanent route.
 
 Files changed:
