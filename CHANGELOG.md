@@ -4,6 +4,18 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-03
 
+Added a focused Technical Writer & Editor resume and made it the primary resume linked from the About and Technical Writing pages. The two-page resume leads with recent documentation and technical-communication work, retains official recent job titles, and presents older direct technical-writing roles as undated selected foundations. A separate paste-ready application text file is maintained outside the published site for online forms.
+
+Files changed:
+
+- `resume/technical-writer-editor-resume.pdf`
+- `resume/index.html`
+- `technical-writing/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-03
+
 Refined the Technical Writing & Editing portfolio before publication. Replaced the unmarked R.A. Jones manual with an undated case study based on Michelle's visible substantive-editing comments in a Brandon Carson article. Created locally hosted portfolio copies of the proposal edit, software quick-start guide, style guide, and Oracle job aid; removed production dates and document timestamps while retaining dates that are necessary to the source content, such as citation years and date-format examples. Replaced private Drive links with stable site links, scrubbed production timestamps from the AI governance PDF metadata, and corrected the new page's footer copyright line to match the rest of the site.
 
 Files changed:
