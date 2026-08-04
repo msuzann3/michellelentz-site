@@ -448,6 +448,10 @@ p {
   color: var(--midnight);
 }
 
+.card .muted {
+  font-weight: 400;
+}
+
 .tag-row {
   display: flex;
   flex-wrap: wrap;

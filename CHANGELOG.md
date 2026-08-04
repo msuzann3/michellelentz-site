@@ -4,6 +4,16 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-03
 
+Normalized descriptive text weight across the Work page cards. Linked cards previously inherited the global bold link weight while non-linked `<article>` cards rendered the same descriptive markup at normal weight. Card descriptions now explicitly use normal weight, while titles, metadata, link labels, and tags retain their intended emphasis.
+
+Files changed:
+
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-03
+
 Reconciled the projectless "Find technical writing samples" task handoff with the canonical iCloud project. The public portfolio, resume, deployment status, and merged PR history were already documented, so no duplicate release entries were added. Copied the private ATS resume, application copy, portfolio research notes, and resume/sample preparation scripts into `private/technical-writing/` so they sync across Michelle's Macs. The private folder is excluded from Git because it contains personal contact information; the previous temporary task folder is no longer the canonical working location.
 
 Files changed:

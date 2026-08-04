@@ -63,6 +63,7 @@ Avatar:
 
 - Preserve the static-site structure.
 - Use existing CSS and card patterns before adding new styling.
+- Keep descriptive copy inside Work page cards at normal font weight. Card titles, metadata, link labels, and tags may retain their intentional emphasis.
 - Header navigation order should remain: About, Writing, Speaking, Work, LinkedIn.
 - `resume/index.html` is the About page. Visible page identity should say About, not Resume.
 - External `http` and `https` links should include `target="_blank"` and `rel="noopener noreferrer"`.
