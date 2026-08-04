@@ -4,6 +4,18 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-03
 
+Reconciled the projectless "Find technical writing samples" task handoff with the canonical iCloud project. The public portfolio, resume, deployment status, and merged PR history were already documented, so no duplicate release entries were added. Copied the private ATS resume, application copy, portfolio research notes, and resume/sample preparation scripts into `private/technical-writing/` so they sync across Michelle's Macs. The private folder is excluded from Git because it contains personal contact information; the previous temporary task folder is no longer the canonical working location.
+
+Files changed:
+
+- `.gitignore`
+- `README.md`
+- `CHANGELOG.md`
+- `private/technical-writing/outputs/` (iCloud-only; Git-ignored)
+- `private/technical-writing/work/` (iCloud-only; Git-ignored)
+
+## 2026-08-03
+
 Removed Michelle's phone number from the public website resume PDF while retaining it in the private ATS Word resume and paste-ready application copy. Updated the resume generator so future public PDF refreshes preserve this privacy choice.
 
 Files changed:
