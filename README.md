@@ -23,6 +23,7 @@ The project was recovered from a Netlify deploy ZIP and then refined in Codex. K
 - `resume/technical-writer-editor-resume.pdf` - Focused technical writing and editing resume
 - `work/index.html` - Portfolio/work samples
 - `work/the-whom/index.html` - Musical Grammar Rectifier n8n/GPT-4o workflow case study
+- `work/mission-responsible-ai/index.html` - Intro and LMS implementation context for the adaptive Mission: Responsible AI course
 - `technical-writing/index.html` - Focused technical writing and editing contract portfolio
 - `technical-writing/samples/` - Portfolio-safe, locally hosted sample PDFs with production dates removed
 - `writing/index.html` - Writing, books, guides, and articles
@@ -79,6 +80,7 @@ Avatar:
 - The public resume PDF omits Michelle's phone number. The private ATS Word resume and application copy retain it for direct job applications.
 - Private technical-writing application materials and the scripts used to prepare the resume and portfolio samples live at `private/technical-writing/` inside this canonical iCloud project. That folder is intentionally ignored by Git because it contains personal contact information; do not publish or commit it. Use this shared project copy instead of the temporary `Documents/Codex/2026-08-03/i-ne/` task folder.
 - The AI Governance document is hosted in this repository at `writing/from-risk-to-responsibility-ai-governance.pdf`; use `https://michelleslentz.com/writing/from-risk-to-responsibility-ai-governance.pdf` as its stable public and LinkedIn URL. Its PDF document properties identify the title as "AI Governance in Your Organization" and the author as Michelle Lentz.
+- Mission: Responsible AI is a self-directed portfolio sample Michelle created to demonstrate her current approach to scenario-based eLearning and responsible AI. The course remains a standalone ChatGPT Sites experience at `https://risk-responsibility-lab.msuzann3.chatgpt.site/`. Its Work card opens the local `work/mission-responsible-ai/` introduction in a new tab; that page explains Michelle's design authorship, Codex-assisted implementation, learning approach, and potential SCORM/xAPI/cmi5 instrumentation before linking to the course.
 - The AI-Ready Recruiting Workshop belongs in the top Work page section after the first three featured AI cards. Link to the individual PDFs and the shared Drive folder from the card.
 - The top Work page section is arranged in five rows: Readiness Assessment, Suitability Matrix, and Vinyl Curator Capstone; Code Translator, AI Orchestra, and Open Weights; Change Management and Governance SME work, Brain/Heart/Courage, and AI Academy; AI-Ready Recruiting Workshop, Structured Prompt Tool, and Musical Grammar Rectifier; then Positive Change Management and the two website cards.
 - The Vinyl Curator Capstone card links to `https://capstone.curatevinyl.com`, records the 4.0 MSc in AI in Business result, and describes the verified React/TypeScript/Firebase/Firestore/Express stack.

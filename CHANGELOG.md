@@ -2,6 +2,17 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-08-10
+
+Added Mission: Responsible AI to the Current AI work portfolio and identified it as a self-directed sample created to demonstrate Michelle's current approach to scenario-based eLearning and responsible AI. The new card opens a dedicated introduction page in a new tab before linking to the standalone ChatGPT Sites course. The introduction documents Michelle's design and subject-matter authorship, the iterative Codex-assisted build, the three adaptive missions, and potential SCORM, xAPI, and cmi5 LMS instrumentation.
+
+Files changed:
+
+- `work/index.html`
+- `work/mission-responsible-ai/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
 ## 2026-08-03
 
 Normalized descriptive text weight across the Work page cards. Linked cards previously inherited the global bold link weight while non-linked `<article>` cards rendered the same descriptive markup at normal weight. Card descriptions now explicitly use normal weight, while titles, metadata, link labels, and tags retain their intended emphasis.
