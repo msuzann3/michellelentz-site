@@ -4,7 +4,7 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-10
 
-Added Mission: Responsible AI to the Current AI work portfolio and identified it as a self-directed sample created to demonstrate Michelle's current approach to scenario-based eLearning and responsible AI. The new card opens a dedicated introduction page in a new tab before linking to the standalone ChatGPT Sites course. The introduction documents Michelle's design and subject-matter authorship, the iterative Codex-assisted build, the three adaptive missions, and potential SCORM, xAPI, and cmi5 LMS instrumentation.
+Added Mission: Responsible AI to the Current AI work portfolio and identified it as a self-directed sample created to demonstrate Michelle's current approach to scenario-based eLearning and responsible AI. The new card opens a dedicated introduction page in a new tab before linking to the standalone ChatGPT Sites course. The introduction links its first white-paper reference to the hosted `From Risk to Responsibility` PDF and documents Michelle's design and subject-matter authorship, the iterative Codex-assisted build, the three adaptive missions, and potential SCORM, xAPI, and cmi5 LMS instrumentation.
 
 Files changed:
 
