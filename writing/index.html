@@ -26,7 +26,7 @@
       plausible.init()
     </script>
   </head>
-  <body>
+  <body id="top">
     <a class="skip-link" href="#main">Skip to main content</a>
     <header class="site-header">
       <nav class="nav" aria-label="Main navigation">
@@ -55,17 +55,29 @@
         </div>
       </section>
 
-      <section class="section">
+      <nav class="section-menu" aria-label="Writing page sections">
+        <div class="wrap">
+          <span class="section-menu-label">On this page</span>
+          <div class="section-menu-links">
+            <a href="#featured-writing">Featured Writing</a>
+            <a href="#books-guides">Books, Guides &amp; Long-Form Work</a>
+            <a href="#articles">Articles</a>
+            <a href="#personal-archive">Personal Projects &amp; Archive</a>
+          </div>
+        </div>
+      </nav>
+
+      <section class="section" id="featured-writing">
         <div class="wrap">
           <div class="section-heading">
             <div>
-              <span class="eyebrow">Books, guides, and long-form work</span>
-              <h2>Practical resources for emerging work</h2>
+              <span class="eyebrow">Featured Writing</span>
+              <h2>Writing for responsible, capable organizations</h2>
             </div>
-            <p class="muted">These pieces translate changing practice into guidance people can actually use: in design work, learning strategy, AI adoption, and responsible implementation.</p>
+            <p class="muted">Selected work on AI governance, human-centered AI collaboration, and the changing role of learning teams.</p>
           </div>
-          <div class="two-col">
-            <a class="writing-card featured" href="/writing/from-risk-to-responsibility-ai-governance.pdf" target="_blank" rel="noopener noreferrer">
+          <div class="card-grid">
+            <a class="writing-card" href="/writing/from-risk-to-responsibility-ai-governance.pdf" target="_blank" rel="noopener noreferrer">
               <p class="meta">Clarity Consultants, August 2025</p>
               <h3>From Risk to Responsibility: AI Governance in Your Organization</h3>
               <p class="muted">A governance guide focused on moving organizations from abstract AI risk to clearer roles, decisions, and responsible-use practices.</p>
@@ -77,6 +89,27 @@
               <p class="muted">A practical guide for instructional designers using AI to plan, draft, evaluate, and iterate while keeping human judgment in the loop.</p>
               <div class="tag-row"><span class="tag emerald">AI</span><span class="tag">Instructional design</span></div>
             </a>
+            <a class="writing-card" href="https://trainingmag.com/from-content-creators-to-capability-architects-lds-identity-shift-in-the-ai-era/" target="_blank" rel="noopener noreferrer">
+              <p class="meta">Training Magazine</p>
+              <h3>From Content Creators to Capability Architects</h3>
+              <p class="muted">L&amp;D's identity shift in the AI era.</p>
+              <div class="tag-row"><span class="tag emerald">AI</span><span class="tag">L&amp;D</span></div>
+            </a>
+          </div>
+          <p class="section-back-to-top"><a href="#top">Back to top</a></p>
+        </div>
+      </section>
+
+      <section class="section sky" id="books-guides">
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Books, Guides, and Long-Form Work</span>
+              <h2>Long-form contributions to modern learning</h2>
+            </div>
+            <p class="muted">Book contributions on distributed work, learning curation, copyright, and Creative Commons.</p>
+          </div>
+          <div class="card-grid">
             <a class="writing-card" href="https://a.co/d/8X0ZrAm" target="_blank" rel="noopener noreferrer">
               <p class="meta">Book contribution</p>
               <h3>L&amp;D's Playbook for the Digital Age</h3>
@@ -90,60 +123,25 @@
               <div class="tag-row"><span class="tag emerald">Curation</span><span class="tag">Copyright</span></div>
             </a>
           </div>
+          <p class="section-back-to-top"><a href="#top">Back to top</a></p>
         </div>
       </section>
 
-      <section class="section sky">
+      <section class="section" id="articles">
         <div class="wrap">
           <div class="section-heading">
             <div>
               <span class="eyebrow">Articles</span>
               <h2>AI, learning, and organizational change</h2>
             </div>
-            <p class="muted">Shorter pieces on what AI changes for learning teams, subject matter experts, leaders, and the very human work of adoption.</p>
+            <p class="muted">Shorter pieces on what AI changes for learning teams, subject matter experts, leaders, and the human work of adoption.</p>
           </div>
           <div class="card-grid">
-            <a class="writing-card" href="https://drive.google.com/open?id=138splFbP6ACuWioO801hx1VGiAdRmg25" target="_blank" rel="noopener noreferrer">
-              <p class="meta">ELB Learning</p>
-              <h3>The 6 Pillars of Next-Level Learning Strategy</h3>
-              <p class="muted">A learning strategy paper focused on moving from activity to capability.</p>
-              <div class="tag-row"><span class="tag emerald">Strategy</span><span class="tag">Learning</span></div>
-            </a>
-            <a class="writing-card" href="https://trainingmag.com/from-content-creators-to-capability-architects-lds-identity-shift-in-the-ai-era/" target="_blank" rel="noopener noreferrer">
-              <p class="meta">Training Magazine</p>
-              <h3>From Content Creators to Capability Architects</h3>
-              <p class="muted">L&amp;D's identity shift in the AI era.</p>
-              <div class="tag-row"><span class="tag emerald">AI</span><span class="tag">L&amp;D</span></div>
-            </a>
-            <a class="writing-card" href="https://www.td.org/content/talent-development-leader/action-2-learning-at-scale" target="_blank" rel="noopener noreferrer">
-              <p class="meta">ATD</p>
-              <h3>Action 2: Learning at Scale</h3>
-              <p class="muted">Part of the AI-Powered Workforce series, co-authored with Brandon Carson.</p>
-              <div class="tag-row"><span class="tag emerald">Workforce</span><span class="tag">Scale</span></div>
-            </a>
             <a class="writing-card" href="https://www.td.org/atd-blog/6-lessons-instructional-designers-can-learn-from-the-muppets" target="_blank" rel="noopener noreferrer">
               <p class="meta">ATD Blog</p>
               <h3>6 Lessons Instructional Designers Can Learn from the Muppets</h3>
               <p class="muted">A playful piece with a practical point: strong instructional design depends on curiosity, craft, and respect for the audience.</p>
               <div class="tag-row"><span class="tag emerald">Design</span><span class="tag">Muppets</span></div>
-            </a>
-            <a class="writing-card" href="https://blog.elblearning.com/two-different-ways-to-prompt-your-favorite-ai?utm_content=285605526&amp;utm_medium=social&amp;utm_source=linkedin&amp;hss_channel=lcp-230193" target="_blank" rel="noopener noreferrer">
-              <p class="meta">ELB Learning Blog</p>
-              <h3>Two Different Ways to Prompt Your Favorite AI</h3>
-              <p class="muted">A practical look at prompt approaches for better AI collaboration.</p>
-              <div class="tag-row"><span class="tag emerald">Prompting</span><span class="tag">AI</span></div>
-            </a>
-            <a class="writing-card" href="https://blog.elblearning.com/the-rise-of-the-ai-augmented-sme" target="_blank" rel="noopener noreferrer">
-              <p class="meta">ELB Learning Blog</p>
-              <h3>The Rise of the AI-Augmented SME</h3>
-              <p class="muted">How AI changes the role of subject matter experts in learning work.</p>
-              <div class="tag-row"><span class="tag emerald">SME</span><span class="tag">AI</span></div>
-            </a>
-            <a class="writing-card" href="https://blog.elblearning.com/resiliency-in-transformational-change" target="_blank" rel="noopener noreferrer">
-              <p class="meta">ELB Learning Blog</p>
-              <h3>Resiliency in Transformational Change</h3>
-              <p class="muted">A practical look at the human side of transformation and what it takes to help people keep moving.</p>
-              <div class="tag-row"><span class="tag emerald">Change</span><span class="tag">Resilience</span></div>
             </a>
             <a class="writing-card" href="https://blog.elblearning.com/embracing-agile-methodologies-in-ld" target="_blank" rel="noopener noreferrer">
               <p class="meta">ELB Learning Blog</p>
@@ -151,15 +149,46 @@
               <p class="muted">A practical take on bringing agile thinking into learning work.</p>
               <div class="tag-row"><span class="tag emerald">Agile</span><span class="tag">L&amp;D</span></div>
             </a>
+            <a class="writing-card" href="https://blog.elblearning.com/resiliency-in-transformational-change" target="_blank" rel="noopener noreferrer">
+              <p class="meta">ELB Learning Blog</p>
+              <h3>Resiliency in Transformational Change</h3>
+              <p class="muted">A practical look at the human side of transformation and what it takes to help people keep moving.</p>
+              <div class="tag-row"><span class="tag emerald">Change</span><span class="tag">Resilience</span></div>
+            </a>
+            <a class="writing-card" href="https://drive.google.com/open?id=138splFbP6ACuWioO801hx1VGiAdRmg25" target="_blank" rel="noopener noreferrer">
+              <p class="meta">ELB Learning</p>
+              <h3>The 6 Pillars of Next-Level Learning Strategy</h3>
+              <p class="muted">A learning strategy paper focused on moving from activity to capability.</p>
+              <div class="tag-row"><span class="tag emerald">Strategy</span><span class="tag">Learning</span></div>
+            </a>
+            <a class="writing-card" href="https://www.td.org/content/talent-development-leader/action-2-learning-at-scale" target="_blank" rel="noopener noreferrer">
+              <p class="meta">ATD</p>
+              <h3>Action 2: Learning at Scale</h3>
+              <p class="muted">Part of the AI-Powered Workforce series, co-authored with Brandon Carson and Dr. Markus Bernhardt.</p>
+              <div class="tag-row"><span class="tag emerald">Workforce</span><span class="tag">Scale</span></div>
+            </a>
+            <a class="writing-card" href="https://blog.elblearning.com/the-rise-of-the-ai-augmented-sme" target="_blank" rel="noopener noreferrer">
+              <p class="meta">ELB Learning Blog</p>
+              <h3>The Rise of the AI-Augmented SME</h3>
+              <p class="muted">How AI changes the role of subject matter experts in learning work.</p>
+              <div class="tag-row"><span class="tag emerald">SME</span><span class="tag">AI</span></div>
+            </a>
+            <a class="writing-card" href="https://blog.elblearning.com/two-different-ways-to-prompt-your-favorite-ai?utm_content=285605526&amp;utm_medium=social&amp;utm_source=linkedin&amp;hss_channel=lcp-230193" target="_blank" rel="noopener noreferrer">
+              <p class="meta">ELB Learning Blog</p>
+              <h3>Two Different Ways to Prompt Your Favorite AI</h3>
+              <p class="muted">A practical look at prompt approaches for better AI collaboration.</p>
+              <div class="tag-row"><span class="tag emerald">Prompting</span><span class="tag">AI</span></div>
+            </a>
           </div>
+          <p class="section-back-to-top"><a href="#top">Back to top</a></p>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section sky" id="personal-archive">
         <div class="wrap">
           <div class="section-heading">
             <div>
-              <span class="eyebrow">Personal projects and archive</span>
+              <span class="eyebrow">Personal Projects and Archive</span>
               <h2>Where the word-nerd roots show</h2>
             </div>
             <p class="muted">A few older and more personal projects that round out the professional story: books, wine, grammar, and the long-running habit of explaining things clearly.</p>
@@ -184,6 +213,7 @@
               <div class="tag-row"><span class="tag">Wine</span><span class="tag">Publishing</span></div>
             </div>
           </div>
+          <p class="section-back-to-top"><a href="#top">Back to top</a></p>
         </div>
       </section>
     </main>
