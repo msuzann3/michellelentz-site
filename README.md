@@ -21,7 +21,7 @@ The project was recovered from a Netlify deploy ZIP and then refined in Codex. K
 - `index.html` - Home page
 - `resume/index.html` - About page
 - `resume/technical-writer-editor-resume.pdf` - Focused technical writing and editing resume
-- `work/index.html` - Portfolio/work samples
+- `work/index.html` - Portfolio page and samples; public route remains `/work/`
 - `work/visa-learning-intake/index.html` - Learning Intake Triage Workflow design case study
 - `work/the-whom/index.html` - Musical Grammar Rectifier n8n/GPT-4o workflow case study
 - `work/mission-responsible-ai/index.html` - Intro and LMS implementation context for the adaptive Mission: Responsible AI course
@@ -66,10 +66,10 @@ Avatar:
 
 - Preserve the static-site structure.
 - Use existing CSS and card patterns before adding new styling.
-- Keep descriptive copy inside Work page cards at normal font weight. Card titles, metadata, link labels, and tags may retain their intentional emphasis.
-- Header navigation order should remain: About, Writing, Speaking, Work, LinkedIn.
+- Keep descriptive copy inside Portfolio page cards at normal font weight. Card titles, metadata, link labels, and tags may retain their intentional emphasis.
+- Header navigation order should remain: About, Writing, Speaking, Portfolio, LinkedIn. The public URL remains `/work/`.
 - `resume/index.html` is the About page. Visible page identity should say About, not Resume.
-- The About hero links to LinkedIn without a resume callout. Its bottom review-links grid appears in this order: LinkedIn, Presentation Library, Selected Work Portfolio, and Technical Writing & Editing Portfolio; the focused technical-writing portfolio opens in a new tab.
+- The About hero links to LinkedIn without a resume callout. Its bottom review-links grid appears in this order: LinkedIn, Presentation Library, Selected Portfolio, and Technical Writing & Editing Portfolio; the focused technical-writing portfolio opens in a new tab.
 - External `http` and `https` links should include `target="_blank"` and `rel="noopener noreferrer"`.
 - Keep the Plausible analytics snippet in the head of each main page.
 - Keep the copyright line:
@@ -88,13 +88,14 @@ Avatar:
 - The Mission: Responsible AI Work card explicitly identifies the course as based on Michelle's white paper, `From Risk to Responsibility: AI Governance in Your Organization`. In Graduate Program Projects, Vinyl Curator Capstone appears first. In Learning and Technical Writing Samples, the focused Technical Writing & Editing portfolio appears second, immediately after Muppet Magic.
 - The Writing page Articles section leads with the Muppet instructional-design article, followed by the Agile and transformational-change articles; `Two Different Ways to Prompt Your Favorite AI` appears last. `Action 2: Learning at Scale` is credited only on its own card as co-authored with Brandon Carson and Dr. Markus Bernhardt.
 - The AI-Ready Recruiting Workshop belongs in the top Work page section after the first three featured AI cards. Link to the individual PDFs and the shared Drive folder from the card.
-- The Work page is organized into Featured Work, Professional Work, Graduate Program Projects, Learning and Technical Writing Samples, and Earlier Experiments and Archive. Its compact section navigator and end-of-section Back to top links make all five groups directly navigable.
+- Recruiter Scam Check appears in Professional Work immediately after the AI-Ready Recruiting Workshop. It links to `https://file-handler-lentzmichelles.replit.app/`, flags recruiter-message risk indicators without making a definitive fraud determination, and opens in a new tab.
+- The Portfolio page is organized into Featured Work, Professional Work, Graduate Program Projects, Learning and Technical Writing Samples, and Earlier Experiments and Archive. Its compact section navigator and end-of-section Back to top links make all five groups directly navigable.
 - Featured Work contains exactly four cards: the Learning Intake Triage Workflow, AI Academy, AI Organizational Readiness Tool, and Mission: Responsible AI. The intake case study presents a governed consultation architecture in direct, time-neutral design language; do not imply production use or expose proprietary configuration, prompts, data, or credentials.
 - The Vinyl Curator Capstone card links to `https://capstone.curatevinyl.com`, records the 4.0 MSc in AI in Business result, and describes the verified React/TypeScript/Firebase/Firestore/Express stack.
 - The Open Weights card highlights the interactive six-knob explainer at `https://msuzann3.github.io/explainers/0727/` and includes the related LinkedIn post as a secondary link.
 - The Musical Grammar Rectifier card links to the internal `work/the-whom/` case study but intentionally opens it in a new tab.
 - The AI Organizational Readiness Tool now lives at `https://ready.innovate-elevate.ai`.
-- The Work and Speaking pages include compact "On this page" menus below their hero sections, with anchored links to every major content section.
+- The Portfolio and Speaking pages include compact "On this page" menus below their hero sections, with anchored links to every major content section.
 - The Speaking page leads with the upcoming Brain, Heart, and Courage session at Training 2027 Conference & Expo in February 2027, followed by the September 2026 TechLearn session and May 2026 ATD presentation.
 - The Ziplines Education AI Essentials speaking entry uses the date range December 2024–January 2026.
 - The archived BrandonBot card notes Michelle's intention to rebuild the custom GPT with a Firebase backend.

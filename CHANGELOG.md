@@ -4,6 +4,34 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-10
 
+Changed the public-facing portfolio page label from `Work` to `Portfolio` while preserving the existing `/work/` route, file paths, section IDs, and link behavior. Updated the shared header label across the site, Portfolio page metadata and hero identity, portfolio-return/footer links, the homepage portfolio CTA and highlight card, and the About link label from `Selected Work Portfolio` to `Selected Portfolio`. Section names such as Featured Work and Professional Work remain because they describe the body of work rather than the page label.
+
+Files changed:
+
+- `index.html`
+- `resume/index.html`
+- `writing/index.html`
+- `speaking/index.html`
+- `technical-writing/index.html`
+- `work/index.html`
+- `work/the-whom/index.html`
+- `work/mission-responsible-ai/index.html`
+- `work/visa-learning-intake/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-10
+
+Added Recruiter Scam Check to Professional Work immediately after the AI-Ready Recruiting Workshop. The new card links to the Replit tool in a new tab, describes its recruiter-message and sender-detail risk review, and clarifies that it flags risk indicators rather than making a definitive fraud determination.
+
+Files changed:
+
+- `work/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-10
+
 Applied Michelle's About and Speaking review edits. Removed the technical-writer resume callout from the About hero and the resume card from the bottom review-links grid. Reordered that grid to LinkedIn, Presentation Library, Selected Work Portfolio, and Technical Writing & Editing Portfolio, with the focused technical-writing portfolio opening safely in a new tab. Updated the Ziplines Education AI Essentials date range to December 2024–January 2026.
 
 Files changed:
