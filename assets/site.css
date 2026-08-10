@@ -198,6 +198,17 @@ main {
   color: var(--white);
 }
 
+.section-back-to-top {
+  margin: 2rem 0 0;
+  text-align: right;
+}
+
+.section-back-to-top a {
+  display: inline-flex;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
 .wrap {
   margin: 0 auto;
   max-width: 1160px;
@@ -524,7 +535,11 @@ p {
   background: var(--midnight);
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   color: var(--white);
-  padding: 5.25rem 1.4rem 4.5rem;
+  padding: 3.25rem 1.4rem 3rem;
+}
+
+.page-hero h1 {
+  font-size: clamp(2.6rem, 5.5vw, 4.25rem);
 }
 
 .page-hero .lede {
@@ -536,21 +551,21 @@ p {
 }
 
 .page-hero.with-avatar .wrap {
-  align-items: start;
+  align-items: center;
   display: grid;
   gap: 2rem;
   grid-template-columns: minmax(0, 1fr) minmax(160px, 0.28fr);
 }
 
 .page-avatar {
-  align-self: start;
+  align-self: center;
   justify-self: end;
-  max-width: 220px;
-  padding-top: 1.9rem;
+  max-width: 180px;
+  padding-top: 0;
 }
 
 .page-avatar img {
-  max-height: 230px;
+  max-height: 180px;
   object-fit: contain;
 }
 
@@ -771,7 +786,11 @@ p {
     order: -1;
     padding-top: 0;
     justify-self: start;
-    max-width: 170px;
+    max-width: 135px;
+  }
+
+  .page-avatar img {
+    max-height: 140px;
   }
 
   .intro-grid,
@@ -807,6 +826,11 @@ p {
   .page-hero {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .page-hero {
+    padding-bottom: 2.75rem;
+    padding-top: 2.5rem;
   }
 
   .intro-grid,

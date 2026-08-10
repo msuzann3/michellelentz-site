@@ -4,6 +4,71 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-10
 
+Applied Michelle's About and Speaking review edits. Removed the technical-writer resume callout from the About hero and the resume card from the bottom review-links grid. Reordered that grid to LinkedIn, Presentation Library, Selected Work Portfolio, and Technical Writing & Editing Portfolio, with the focused technical-writing portfolio opening safely in a new tab. Updated the Ziplines Education AI Essentials date range to December 2024–January 2026.
+
+Files changed:
+
+- `resume/index.html`
+- `speaking/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-10
+
+Reduced the shared blue avatar hero's vertical footprint across Work, Writing, About, Speaking, and Technical Writing pages. Tightened the hero-specific title scale and vertical padding, reduced the avatar size, and refined the existing tablet/mobile treatment so meaningful following content remains visible in a typical laptop viewport without changing page content or navigation.
+
+Files changed:
+
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-10
+
+Reframed the Visa-originated case study and Featured Work card as `Learning Intake Triage Workflow`. Removed the prominent status treatment and presented the work as a proposed workflow design Michelle can explain live, without implying production use. Expanded the page with its one-line architecture, guided-intake behavior, eight-step implementation approach, modality decision cues, and governed handoff principle: guided discovery, transparent recommendation, human confirmation, structured routing, and instructional-design judgment.
+
+Files changed:
+
+- `work/index.html`
+- `work/visa-learning-intake/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-10
+
+Applied Michelle's review edits to the reorganized Work and Writing pages. The Mission: Responsible AI card now identifies the course as a self-directed portfolio sample based on Michelle's `From Risk to Responsibility` white paper. Vinyl Curator Capstone now leads Graduate Program Projects, and the focused Technical Writing & Editing portfolio appears second in Learning and Technical Writing Samples. Reordered Writing articles to lead with the Muppet, Agile, and transformational-change pieces and place the prompting article last. Corrected the `Action 2: Learning at Scale` card to credit co-authors Brandon Carson and Dr. Markus Bernhardt.
+
+Files changed:
+
+- `work/index.html`
+- `writing/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-10
+
+Reorganized the Writing page into four clear sections: Featured Writing; Books, Guides, and Long-Form Work; Articles; and Personal Projects and Archive. Featured Writing now contains exactly three resources in the approved order: the AI governance guide, the ATD instructional-design guide, and the Training Magazine capability-architects article. Preserved the remaining book, article, and archive cards; added a compact accessible section navigator and a Back to top link after every major section. All destination cards open safely in a new tab, while in-page navigation remains same-tab.
+
+Files changed:
+
+- `writing/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-10
+
+Reorganized the Work portfolio into five clear sections: Featured Work, Professional Work, Graduate Program Projects, Learning and Technical Writing Samples, and Earlier Experiments and Archive. Featured Work now contains exactly four items. Added a portfolio-safe Visa Learning Intake Workflow case study that explicitly identifies the agent/workflow as designed but not built or deployed because the initiative ended, while documenting the intended human-confirmed, transparent, governed handoff at a non-proprietary level. Updated the compact on-page section navigator and added an accessible Back to top link after every major section. Removed the two website cards and the two prompt-writing job aids from the Work page while preserving the existing archive.
+
+Files changed:
+
+- `work/index.html`
+- `work/visa-learning-intake/index.html`
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-10
+
 Added Mission: Responsible AI to the Current AI work portfolio and identified it as a self-directed sample created to demonstrate Michelle's current approach to scenario-based eLearning and responsible AI. The new card opens a dedicated introduction page in a new tab before linking to the standalone ChatGPT Sites course. The introduction links its first white-paper reference to the hosted `From Risk to Responsibility` PDF and documents Michelle's design and subject-matter authorship, the iterative Codex-assisted build, the three adaptive missions, and potential SCORM, xAPI, and cmi5 LMS instrumentation.
 
 Files changed:
