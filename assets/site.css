@@ -931,6 +931,15 @@ p {
     padding-right: 1rem;
   }
 
+  .section {
+    padding-bottom: 3.75rem;
+    padding-top: 3.75rem;
+  }
+
+  .section.tight {
+    padding-top: 3rem;
+  }
+
   .page-hero {
     padding-bottom: 2.75rem;
     padding-top: 2.5rem;
@@ -942,6 +951,47 @@ p {
   .workflow-strip,
   .two-col {
     grid-template-columns: 1fr;
+  }
+
+  .intro-grid,
+  .card-grid {
+    gap: 0.85rem;
+    margin-top: 1.6rem;
+  }
+
+  .mini-card,
+  .card,
+  .feature-card,
+  .writing-card,
+  .presentation-card,
+  .resume-card {
+    gap: 0.65rem;
+    padding: 1rem;
+  }
+
+  .card h3,
+  .writing-card h3,
+  .presentation-card h3 {
+    font-size: 1.2rem;
+    line-height: 1.15;
+  }
+
+  .card-links {
+    gap: 0.45rem;
+  }
+
+  .card-links a {
+    font-size: 0.82rem;
+    padding: 0.48rem 0.62rem;
+  }
+
+  .tag-row {
+    gap: 0.35rem;
+  }
+
+  .tag {
+    font-size: 0.75rem;
+    padding: 0.34rem 0.5rem;
   }
 
   .writing-card.featured {
