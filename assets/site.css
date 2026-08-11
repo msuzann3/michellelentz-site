@@ -277,7 +277,7 @@ p {
 .hero {
   background: var(--midnight);
   color: var(--white);
-  padding: 3.75rem 1.4rem 3.5rem;
+  padding: 2.75rem 1.4rem 2.5rem;
 }
 
 .hero .lede {
@@ -285,13 +285,13 @@ p {
 }
 
 .hero h1 {
-  font-size: clamp(2.6rem, 6vw, 4.4rem);
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
 }
 
 .hero-grid {
   align-items: center;
   display: grid;
-  gap: 3rem;
+  gap: 2.5rem;
   grid-template-columns: minmax(0, 1.05fr) minmax(260px, 0.72fr);
   margin: 0 auto;
   max-width: 1160px;
@@ -306,7 +306,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .button {
@@ -347,7 +347,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  min-height: 430px;
+  min-height: 340px;
   overflow: hidden;
   position: relative;
 }
@@ -361,7 +361,7 @@ p {
 
 .avatar-card img {
   margin: auto auto 0;
-  max-height: 400px;
+  max-height: 315px;
   object-fit: contain;
   position: relative;
   width: 100%;
@@ -374,7 +374,7 @@ p {
   border-radius: 8px;
   color: rgba(255, 255, 255, 0.84);
   font-size: 0.92rem;
-  padding: 1rem;
+  padding: 0.8rem 1rem;
   position: relative;
   z-index: 1;
 }
@@ -878,11 +878,11 @@ p {
   }
 
   .hero {
-    padding-top: 3.5rem;
+    padding-top: 2.75rem;
   }
 
   .avatar-card {
-    min-height: 420px;
+    min-height: 340px;
   }
 
   .page-avatar {
