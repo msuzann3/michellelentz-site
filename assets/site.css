@@ -277,11 +277,15 @@ p {
 .hero {
   background: var(--midnight);
   color: var(--white);
-  padding: 5.25rem 1.4rem 4.4rem;
+  padding: 3.75rem 1.4rem 3.5rem;
 }
 
 .hero .lede {
   color: rgba(255, 255, 255, 0.78);
+}
+
+.hero h1 {
+  font-size: clamp(2.6rem, 6vw, 4.4rem);
 }
 
 .hero-grid {
@@ -343,7 +347,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  min-height: 520px;
+  min-height: 430px;
   overflow: hidden;
   position: relative;
 }
@@ -357,7 +361,7 @@ p {
 
 .avatar-card img {
   margin: auto auto 0;
-  max-height: 490px;
+  max-height: 400px;
   object-fit: contain;
   position: relative;
   width: 100%;
@@ -610,6 +614,69 @@ p {
   width: 100%;
 }
 
+.case-summary-section {
+  background: var(--midnight);
+  color: var(--white);
+}
+
+.case-summary-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.case-summary-grid article {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  padding: 1.35rem;
+}
+
+.case-summary-grid .meta {
+  color: var(--azure);
+  margin-bottom: 0.6rem;
+}
+
+.case-summary-grid article > p:last-child {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.academy-pyramid {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin: 2.5rem auto 0;
+  max-width: 900px;
+}
+
+.pyramid-level {
+  background: var(--midnight);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: var(--white);
+  padding: 1rem 1.4rem;
+  text-align: center;
+}
+
+.pyramid-level strong,
+.pyramid-level span {
+  display: block;
+}
+
+.pyramid-level strong {
+  font-family: "Syne", Arial, sans-serif;
+  font-size: 1.05rem;
+}
+
+.pyramid-level span {
+  color: rgba(255, 255, 255, 0.76);
+  margin-top: 0.25rem;
+}
+
+.pyramid-top { background: #08664f; width: 44%; }
+.pyramid-upper { background: #087b5d; width: 62%; }
+.pyramid-middle { background: #0b8f68; width: 80%; }
+.pyramid-base { background: var(--midnight); width: 100%; }
+
 .workflow-strip {
   display: grid;
   gap: 1rem;
@@ -699,6 +766,42 @@ p {
 .archive-list li {
   break-inside: avoid;
   margin-bottom: 0.65rem;
+}
+
+.archive-groups {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1.8rem;
+}
+
+.archive-groups details {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0 1.25rem;
+}
+
+.archive-groups summary {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-family: "Syne", Arial, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 1.1rem 0;
+}
+
+.archive-groups summary .muted {
+  font-family: "Outfit", Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.archive-groups details[open] .archive-list {
+  border-top: 1px solid var(--border);
+  padding-top: 1.1rem;
 }
 
 .resume-grid {
@@ -835,6 +938,7 @@ p {
 
   .intro-grid,
   .card-grid,
+  .case-summary-grid,
   .workflow-strip,
   .two-col {
     grid-template-columns: 1fr;
@@ -842,6 +946,10 @@ p {
 
   .writing-card.featured {
     grid-column: auto;
+  }
+
+  .pyramid-level {
+    width: 100%;
   }
 
   .section-heading {

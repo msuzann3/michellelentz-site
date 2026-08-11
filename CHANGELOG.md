@@ -2,6 +2,48 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-08-11
+
+Reframed Featured Work as a consistent four-case-study collection in this order: Learning Intake Triage Workflow, AI Academy, Change Management and Governance in AI Automations, and AI Organizational Readiness Tool. Added case-study pages for the shipped AI Academy, the working AI Organizational Readiness Tool, and the Ziplines Education module. Each page presents Problem, My role, What I produced, and Evidence/result, then links to available public evidence. Added an accessible four-level HTML/CSS learning pyramid to the AI Academy page and documented Michelle's contribution precisely: she helped design the pyramid as part of a three-person AI team; independently owned the foundational eLearning design and content, excluding development; served as subject-matter expert and learning-flow designer for the other training layers; and jointly conducted the initial vertical-training focus groups with the team. The draft ethics module is identified as one sample from the foundational eLearning she designed rather than the full academy. Expanded the existing Learning Intake Triage Workflow page with the same summary structure and the category label Workflow Optimization Case Study while preserving neutral, public-safe language and using Expected outcome rather than implying production results. Moved Mission: Responsible AI to the first position in Professional Work as a working self-directed course that demonstrates current design and build capability. Featured Work remains exactly four cards, and all four cards now open local case studies before any external sample or tool.
+
+Aligned the Learning Intake Triage Workflow page's browser and social-share metadata with its visible `Workflow Optimization Case Study` label for consistency across all four featured case studies.
+
+Renamed the Portfolio's opening section `Featured case studies` and changed its heading to `Four case studies in practical, human-centered AI`. Added a concise supporting line naming the four areas: workflow optimization, enterprise enablement, governance and change, and organizational readiness.
+
+Tightened the homepage hero so supporting copy and actions appear sooner in a typical laptop viewport. Replaced tentative job-search language with a confident current-focus statement, standardized the completed degree as `MSc in AI in Business, Arizona State University`, and added Michelle's 4.0 across both technical and business coursework. Reframed the homepage Portfolio card as an invitation to start with the four featured AI case studies while leaving the broader collection available on the Portfolio page.
+
+Refined the About and Technical Writing pages. Removed the redundant LinkedIn action from the About hero because LinkedIn remains visible in the persistent header. Removed the MBTI and Gallup cards from About, added the 4.0 to the MSc credential, changed the Range section from sky blue to white for clearer visual separation, and renamed the Portfolio link `AI Case Studies & Portfolio` with copy that introduces both the four featured studies and the broader collection. Removed the technical-writing resume link from the About footer. Kept the PDF available only in the Technical Writing portfolio header and relabeled it `View Technical Writing Experience` so general visitors are directed to LinkedIn instead of a downloadable resume.
+
+Focused the lower Portfolio and consolidated related artifacts. Removed the Earlier Experiments and Archive section. Reduced Learning and Technical Writing Samples to Muppet Magic, the focused Technical Writing portfolio, combined UPS GBS style/eLearning standards, LCA virtual training, UPS Workday training, combined selected Oracle performance-support work, and the Lectora workbook. Moved Pre-Recording Checklist, TME Quick Start Guide, combined Panstoria/Creative Memories Memory Manager and Historian documentation, combined SAP samples, and the TekWorx manual into an additional-evidence section on the focused Technical Writing portfolio. Combined the published Agile article, presentation, and white paper into one Writing card. Consolidated repeat deliveries of Brain, Heart, and Courage and Humanizing AI Transformation on Speaking. Applied the durable rule that multiple artifacts from one project or body of work belong in one card with multiple links.
+
+Further focused the Technical Writing portfolio to four primary bodies of work. Folded the duplicate Talent Management Essentials quick-start guide into the selected Oracle documentation card alongside the Growth Potential and Learning Paths job aids, removed AI Governance because it already belongs on Writing, and reordered the secondary archive to lead with the combined Panstoria/Creative Memories digital-scrapbooking documentation.
+
+Moved the Pre-Recording Checklist out of the Technical Writing archive and combined it with the LCA Virtual Training Sample in one main-Portfolio card titled `Virtual Training Design & Production Support`.
+
+Changed the featured AI Governance PDF link on Writing from a root-relative path to a page-relative path so it resolves correctly both on the live domain and when the static site is opened directly from local files.
+
+Reorganized Speaking into four clearer levels: Upcoming and Featured, Selected Speaking, Podcasts and Interviews, and Earlier Presentations. Consolidated related appearances into shared cards for Brain, Heart, and Courage; Humanizing AI Transformation; Muppet-inspired instructional design; positive change management; and design thinking for AI, retaining multiple event or recording links where available. Replaced parenthetical missing-link notes on gated appearances with professional `Gated event` and `No public recording` labels so the work remains visible without implying that the subject matter itself is proprietary. Renamed the hero link `View Presentation Library` and removed newly grouped appearances from the earlier-presentation archive to avoid duplication.
+
+Made the Earlier Presentations archive easier to scan by replacing its single long list with three expandable era groups: 2020–2024, 2013–2018, and 2011–2012. The newest group is open by default; the complete earlier history remains available without dominating the page.
+
+Confirmed the focused Technical Writing résumé as the sole public résumé exception and retained its `View Technical Writing Experience` link in the Technical Writing portfolio header. The specialized document presents a substantially different history from LinkedIn; general site pages continue to direct visitors to LinkedIn instead of offering a downloadable résumé.
+
+Files changed:
+
+- `work/index.html`
+- `work/visa-learning-intake/index.html`
+- `work/ai-academy/index.html`
+- `work/ai-organizational-readiness/index.html`
+- `work/ziplines-ai-automations/index.html`
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+- `index.html`
+- `resume/index.html`
+- `technical-writing/index.html`
+- `writing/index.html`
+- `speaking/index.html`
+
 ## 2026-08-10
 
 Changed the public-facing portfolio page label from `Work` to `Portfolio` while preserving the existing `/work/` route, file paths, section IDs, and link behavior. Updated the shared header label across the site, Portfolio page metadata and hero identity, portfolio-return/footer links, the homepage portfolio CTA and highlight card, and the About link label from `Selected Work Portfolio` to `Selected Portfolio`. Section names such as Featured Work and Professional Work remain because they describe the body of work rather than the page label.
