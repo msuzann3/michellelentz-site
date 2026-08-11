@@ -463,7 +463,8 @@ p {
   color: var(--midnight);
 }
 
-.card .muted {
+.card .muted,
+.writing-card .muted {
   font-weight: 400;
 }
 
