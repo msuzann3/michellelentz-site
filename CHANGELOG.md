@@ -4,6 +4,16 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-11
 
+Normalized Writing card descriptions to the same regular weight used on Portfolio cards. Standardized the ASU degree and post-graduate certification wording to `AI in Business` on Home and About, removed the 4.0 reference from Home while retaining it on About, and replaced the About page's internal-sounding `Useful links` review language with a visitor-facing invitation to explore Michelle's background and work.
+
+Files changed:
+
+- `assets/site.css`
+- `index.html`
+- `resume/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
 Added a mobile-only compact card treatment at widths up to 680px. Reduced card and mini-card padding, internal gaps, card-grid spacing, card-heading size, tag spacing, action-link spacing, and section height while retaining the 16px body text and existing single-column phone layout. Tablet, laptop, and desktop rules remain unchanged.
 
 Files changed:
