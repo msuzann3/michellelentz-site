@@ -2,6 +2,26 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-08-12
+
+Rewrote the Learning Intake Triage Workflow introduction and summary to explain why the work began: a large financial-services client's Product Training team needed a high-impact AI pilot that could improve a real workflow within corporate and federal guardrails. Kept the client unnamed, framed the artifact accurately as designed work, and made the governed, human-in-the-loop value explicit.
+
+Rewrote the AI Organizational Readiness Tool introduction and summary around its origin for Innovate Elevate: establishing a research-grounded starting point for potential-client AI maturity conversations. Clarified that the assessment draws from established maturity studies and that it evolved into both a diagnostic and an interactive lead-generation call to action.
+
+Changed the shared middle summary band across all four featured case studies from midnight blue to a lighter blue with dark text, subtle white panels, and accessible green labels. The hero, closing call-to-action sections, and footer retain the darker brand treatment.
+
+Kept only the four Featured case studies in a fixed 2×2 grid on tablet and larger screens while leaving the remaining Portfolio sections in the standard three-column grid. Restored the case-study sample and architecture cards to the right of their introductions above the phone breakpoint, and removed `Shipped` from the AI Academy case-study label.
+
+Files changed:
+
+- `work/visa-learning-intake/index.html`
+- `work/ai-organizational-readiness/index.html`
+- `work/ai-academy/index.html`
+- `work/index.html`
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+
 ## 2026-08-11
 
 Normalized Writing card descriptions to the same regular weight used on Portfolio cards. Standardized the ASU degree and post-graduate certification wording to `AI in Business` on Home and About, removed the 4.0 reference from Home while retaining it on About, and replaced the About page's internal-sounding `Useful links` review language with a visitor-facing invitation to explore Michelle's background and work.
