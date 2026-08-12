@@ -4,6 +4,15 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-12
 
+Aligned the Mission: Responsible AI Portfolio card and introduction page with the revised published course. Replaced broad `Adaptive eLearning` and `Adaptive learning` claims with the precise description `a branching scenario experience with adaptive feedback and support based on learner decisions`. Updated the intro metadata, tags, current mission names, learning sequence, support and consequence behavior, required response remediation and justification, locally saved progress, and potential xAPI/cmi5 event language.
+
+Files changed:
+
+- `work/index.html`
+- `work/mission-responsible-ai/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
 Rewrote the Learning Intake Triage Workflow introduction and summary to explain why the work began: a large financial-services client's Product Training team needed a high-impact AI pilot that could improve a real workflow within corporate and federal guardrails. Kept the client unnamed, framed the artifact accurately as designed work, and made the governed, human-in-the-loop value explicit.
 
 Rewrote the AI Organizational Readiness Tool introduction and summary around its origin for Innovate Elevate: establishing a research-grounded starting point for potential-client AI maturity conversations. Clarified that the assessment draws from established maturity studies and that it evolved into both a diagnostic and an interactive lead-generation call to action.
