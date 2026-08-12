@@ -435,6 +435,10 @@ p {
   margin-top: 2.4rem;
 }
 
+.featured-case-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .card,
 .feature-card,
 .writing-card,
@@ -616,8 +620,8 @@ p {
 }
 
 .case-summary-section {
-  background: var(--midnight);
-  color: var(--white);
+  background: #dbeafe;
+  color: var(--midnight);
 }
 
 .case-summary-grid {
@@ -627,18 +631,19 @@ p {
 }
 
 .case-summary-grid article {
-  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(13, 27, 53, 0.14);
   border-radius: 8px;
   padding: 1.35rem;
 }
 
 .case-summary-grid .meta {
-  color: var(--azure);
+  color: #087756;
   margin-bottom: 0.6rem;
 }
 
 .case-summary-grid article > p:last-child {
-  color: rgba(255, 255, 255, 0.82);
+  color: #34445a;
 }
 
 .academy-pyramid {
@@ -872,7 +877,6 @@ p {
 @media (max-width: 900px) {
   .hero-grid,
   .split,
-  .simple-case-grid,
   .page-hero.with-avatar .wrap,
   .resume-grid {
     grid-template-columns: 1fr;
@@ -898,7 +902,6 @@ p {
   }
 
   .intro-grid,
-  .card-grid,
   .workflow-strip {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -948,6 +951,7 @@ p {
 
   .intro-grid,
   .card-grid,
+  .simple-case-grid,
   .case-summary-grid,
   .workflow-strip,
   .two-col {

@@ -72,6 +72,9 @@ Avatar:
 - Preserve the static-site structure.
 - Use existing CSS and card patterns before adding new styling.
 - Keep descriptive copy inside Portfolio page cards at normal font weight. Card titles, metadata, link labels, and tags may retain their intentional emphasis.
+- Featured case-study introductions should explain why the work was undertaken, not only what the solution does. Keep unnamed client work public-safe, distinguish designed work from shipped work, and identify research foundations without overstating validation.
+- The shared Problem/My role/What I produced/Result summary bands on the four featured case studies use a light-blue treatment with dark text for readability; reserve midnight blue for heroes, closing calls to action, and footers.
+- Keep only the four Featured case studies in a 2×2 grid above 680px; other Portfolio sections retain the standard three-column card grid. Case-study sample and architecture cards remain to the right of the introduction above 680px, then stack on phones.
 - Header navigation order should remain: About, Writing, Speaking, Portfolio, LinkedIn. The public URL remains `/work/`.
 - `resume/index.html` is the About page. Visible page identity should say About, not Resume.
 - The About hero has no action buttons because both Portfolio and LinkedIn remain available in the persistent header. The About page does not link to a downloadable resume. Its bottom review-links grid appears in this order: LinkedIn, Presentation Library, AI Case Studies & Portfolio, and Technical Writing & Editing Portfolio; the focused technical-writing portfolio opens in a new tab.
