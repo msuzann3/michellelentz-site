@@ -6,6 +6,8 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 Aligned the Mission: Responsible AI Portfolio card and introduction page with the revised published course. Replaced broad `Adaptive eLearning` and `Adaptive learning` claims with the precise description `a branching scenario experience with adaptive feedback and support based on learner decisions`. Updated the intro metadata, tags, current mission names, learning sequence, support and consequence behavior, required response remediation and justification, locally saved progress, and potential xAPI/cmi5 event language.
 
+Published the aligned Portfolio wording through PR #12 (`955e2c2`) and verified both the Portfolio page and Mission introduction on the live domain after the GitHub Pages deployment succeeded.
+
 Files changed:
 
 - `work/index.html`
