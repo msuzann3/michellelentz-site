@@ -2,6 +2,17 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-08-13
+
+Added a three-card closing section to the Mission: Responsible AI introduction: Learning Design, LMS Delivery, and Course Continuity. Separated the handoff material from the LMS card, changed the SCORM and xAPI/cmi5 descriptions from `could` to `would`, and presented the course as maintainable source that can be delivered with a SCORM-wrapped LMS package and a companion AI maintenance skill compatible with tools such as Codex or Claude Code. The reusable automation can support common content changes, validation, rebuilding, packaging, and handoff documentation while leaving review, LMS configuration, and publishing under client control. The wording describes a feasible client-delivery model without implying that the current standalone course already includes the wrapper or skill or locking the handoff to one AI environment.
+
+Files changed:
+
+- `work/mission-responsible-ai/index.html`
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+
 ## 2026-08-12
 
 Aligned the Mission: Responsible AI Portfolio card and introduction page with the revised published course. Replaced broad `Adaptive eLearning` and `Adaptive learning` claims with the precise description `a branching scenario experience with adaptive feedback and support based on learner decisions`. Updated the intro metadata, tags, current mission names, learning sequence, support and consequence behavior, required response remediation and justification, locally saved progress, and potential xAPI/cmi5 event language.

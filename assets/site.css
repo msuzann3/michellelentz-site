@@ -741,6 +741,12 @@ p {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.three-col {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .writing-card.featured {
   grid-column: span 2;
 }
@@ -954,7 +960,8 @@ p {
   .simple-case-grid,
   .case-summary-grid,
   .workflow-strip,
-  .two-col {
+  .two-col,
+  .three-col {
     grid-template-columns: 1fr;
   }
 
