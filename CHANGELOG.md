@@ -6,6 +6,10 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 Added a three-card closing section to the Mission: Responsible AI introduction: Learning Design, LMS Delivery, and Course Continuity. Separated the handoff material from the LMS card, changed the SCORM and xAPI/cmi5 descriptions from `could` to `would`, and presented the course as maintainable source that can be delivered with a SCORM-wrapped LMS package and a companion AI maintenance skill compatible with tools such as Codex or Claude Code. The reusable automation can support common content changes, validation, rebuilding, packaging, and handoff documentation while leaving review, LMS configuration, and publishing under client control. The wording describes a feasible client-delivery model without implying that the current standalone course already includes the wrapper or skill or locking the handoff to one AI environment.
 
+Standardized the three closing card headings by removing terminal periods and changing `Branch. Adapt. Verify.` to `Branch, Adapt, Verify`. Updated the authorship statement to say that Michelle used ChatGPT Codex to build the entire course without a separate course-authoring tool or outside developer, replaced the Adaptive Support tag with Codex, and made the linked white-paper title inherit the surrounding lead sentence's font size and weight.
+
+Removed the white-paper link's italic treatment and reset its complete font treatment to inherit from the surrounding lead sentence after visual review showed that the emphasized link appeared substantially larger than adjacent copy. Only emerald color and underline now distinguish it as a link.
+
 Files changed:
 
 - `work/mission-responsible-ai/index.html`
