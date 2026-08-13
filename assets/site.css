@@ -589,6 +589,10 @@ p {
   max-width: 760px;
 }
 
+.simple-case-copy .lede a {
+  font: inherit;
+}
+
 .case-tags {
   margin-top: 1.5rem;
 }
