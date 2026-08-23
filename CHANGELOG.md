@@ -6,6 +6,8 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 Added a discreet `Help Ringo Beat Cancer` link to every main-page footer beside the existing personal and social links. Added Michelle's approved `A personal note` copy as a separate callout in the dark Word Nerd section, with a restrained divider and linked final sentence rather than incorporating it into the Word Nerd paragraph. Kept the GoFundMe separate from the primary navigation and professional calls to action. Did not commit, push, merge, or publish.
 
+Corrected every fundraiser destination to the public URL `https://www.gofundme.com/help-ringo-beat-cancer`; the earlier logged-in URL incorrectly included `/f/`.
+
 Files changed:
 
 - `index.html`
