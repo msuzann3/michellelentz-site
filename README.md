@@ -82,7 +82,7 @@ Avatar:
 - External `http` and `https` links should include `target="_blank"` and `rel="noopener noreferrer"`.
 - Keep the Plausible analytics snippet in the head of each main page.
 - Keep the copyright line:
-  `© All content copyright Michelle S. Lentz 1998-2025.`
+  `© All content copyright Michelle S. Lentz 1998-2026.`
 - Footer on each main page should include:
   Michelle Lentz, Seattle, Washington, a page-specific sentence, and "Open to alternative time zones, travel, and relocation."
 - Every main-page footer includes a discreet personal link labeled `Help Ringo Beat Cancer` pointing to Ringo's GoFundMe. Keep it separate from the site's professional navigation and primary calls to action.

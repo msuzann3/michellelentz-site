@@ -4,6 +4,27 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-23
 
+Updated the copyright year range from 1998–2025 to 1998–2026 in every main-page footer and aligned the canonical wording in the README. Committed and pushed directly to `main` for GitHub Pages publication.
+
+Files changed:
+
+- `index.html`
+- `resume/index.html`
+- `writing/index.html`
+- `speaking/index.html`
+- `technical-writing/index.html`
+- `work/index.html`
+- `work/ai-academy/index.html`
+- `work/ai-organizational-readiness/index.html`
+- `work/mission-responsible-ai/index.html`
+- `work/the-whom/index.html`
+- `work/visa-learning-intake/index.html`
+- `work/ziplines-ai-automations/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+---
+
 Added a discreet `Help Ringo Beat Cancer` link to every main-page footer beside the existing personal and social links. Added Michelle's approved `A personal note` copy as a separate callout in the dark Word Nerd section, with a restrained divider and linked final sentence rather than incorporating it into the Word Nerd paragraph. Kept the GoFundMe separate from the primary navigation and professional calls to action. Did not commit, push, merge, or publish.
 
 Corrected every fundraiser destination to the public URL `https://www.gofundme.com/help-ringo-beat-cancer`; the earlier logged-in URL incorrectly included `/f/`.
