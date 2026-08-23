@@ -2,6 +2,36 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-08-23
+
+Added a persistent `Subscribe to Flow & Function` action to every site header, linking to the newsletter at `https://flowandfunction.beehiiv.com`. Naming the newsletter in the header makes the destination clear before visitors click. LinkedIn remains a standard navigation link, followed by the emphasized subscription button as the final action. Added a homepage introduction for `Flow & Function` using the approved tagline `AI in working order.`, a concise description of its practical AI-at-work focus, a promise of one practical workflow to test and build each week, and a direct subscription button.
+
+Files changed:
+
+- `index.html`
+- `resume/index.html`
+- `writing/index.html`
+- `speaking/index.html`
+- `technical-writing/index.html`
+- `work/index.html`
+- `work/ai-academy/index.html`
+- `work/ai-organizational-readiness/index.html`
+- `work/mission-responsible-ai/index.html`
+- `work/the-whom/index.html`
+- `work/visa-learning-intake/index.html`
+- `work/ziplines-ai-automations/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-17
+
+Clarified the canonical cross-Mac project location as iCloud Drive → `Documents/_AI-Workspace/Codex/michelleslentz-site`. Updated the session workflow so every new task begins by confirming that location and reading `README.md` and `CHANGELOG.md` before inspecting or changing project files.
+
+Files changed:
+
+- `README.md`
+- `CHANGELOG.md`
+
 ## 2026-08-13
 
 Renamed the public-facing course references from `Mission: Responsible AI` to `Mission Possible: Responsible AI` on the Portfolio card and course introduction page, including page and social metadata. Preserved the existing `/work/mission-responsible-ai/` path and standalone course URL. Published August 13, 2026.

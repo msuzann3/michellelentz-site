@@ -1,6 +1,6 @@
 # Michelle Lentz Personal Site
 
-Current working directory note: this MacBook Pro uses `/Users/michelle/Documents/_AI-Workspace/Codex/michelleslentz-site`. Michelle's MacBook Air is named `dolly` and may have a different path before `Documents`, but both machines should match from `Documents/_AI-Workspace/Codex/michelleslentz-site` onward so iCloud keeps the project synced.
+Canonical cross-Mac location: iCloud Drive → `Documents/_AI-Workspace/Codex/michelleslentz-site`. The user-specific portion of the absolute path may differ between Macs, but the path from `Documents` onward must remain the same. At the start of every new task, confirm this location and read `README.md` and `CHANGELOG.md` before making changes; update both when the task materially changes project context, workflow, or files.
 
 Static personal/professional website for Michelle Lentz.
 
@@ -75,7 +75,8 @@ Avatar:
 - Featured case-study introductions should explain why the work was undertaken, not only what the solution does. Keep unnamed client work public-safe, distinguish designed work from shipped work, and identify research foundations without overstating validation.
 - The shared Problem/My role/What I produced/Result summary bands on the four featured case studies use a light-blue treatment with dark text for readability; reserve midnight blue for heroes, closing calls to action, and footers.
 - Keep only the four Featured case studies in a 2×2 grid above 680px; other Portfolio sections retain the standard three-column card grid. Case-study sample and architecture cards remain to the right of the introduction above 680px, then stack on phones.
-- Header navigation order should remain: About, Writing, Speaking, Portfolio, LinkedIn. The public URL remains `/work/`.
+- Header navigation order should remain: About, Writing, Speaking, Portfolio, LinkedIn, Subscribe to Flow & Function. The named subscription action is emphasized as the final navigation item and links to `https://flowandfunction.beehiiv.com`; the public Portfolio URL remains `/work/`.
+- The homepage introduces `Flow & Function` with the approved tagline `AI in working order.` and a direct subscription action. Describe the newsletter as practical guidance for making AI useful at work across strategy, learning, governance, and change, with one practical workflow to test and build each week.
 - `resume/index.html` is the About page. Visible page identity should say About, not Resume.
 - The About hero has no action buttons because both Portfolio and LinkedIn remain available in the persistent header. The About page does not link to a downloadable resume. Its bottom review-links grid appears in this order: LinkedIn, Presentation Library, AI Case Studies & Portfolio, and Technical Writing & Editing Portfolio; the focused technical-writing portfolio opens in a new tab.
 - External `http` and `https` links should include `target="_blank"` and `rel="noopener noreferrer"`.
@@ -159,12 +160,12 @@ At GoDaddy, point `www` to the GitHub Pages default domain for this repo and poi
 
 ## Working Across Laptops
 
-Use GitHub as the source of truth and iCloud as a convenience sync layer. The project folder should remain `Documents/_AI-Workspace/Codex/michelleslentz-site` from the `Documents` folder onward so it stays synced between Michelle's MacBook Pro and MacBook Air (`dolly`).
+Use GitHub as the source of truth and iCloud Drive as the cross-Mac working-file sync layer. The project folder must remain at iCloud Drive → `Documents/_AI-Workspace/Codex/michelleslentz-site`; the user-specific portion before `Documents` may differ between Macs.
 
 Recommended workflow:
 
 1. Pull latest changes before editing.
-2. Read `README.md` and `CHANGELOG.md` at the beginning of each Codex session.
+2. Read `README.md` and `CHANGELOG.md` at the beginning of every new task, before inspecting or changing project files.
 3. Make site edits.
 4. Update `README.md` and `CHANGELOG.md` whenever project context, workflow, or files change.
 5. Commit and push.
