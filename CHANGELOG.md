@@ -4,6 +4,28 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-08-23
 
+Added a discreet `Help Ringo Beat Cancer` link to every main-page footer beside the existing personal and social links. Added Michelle's approved `A personal note` copy as a separate callout in the dark Word Nerd section, with a restrained divider and linked final sentence rather than incorporating it into the Word Nerd paragraph. Kept the GoFundMe separate from the primary navigation and professional calls to action. Did not commit, push, merge, or publish.
+
+Files changed:
+
+- `index.html`
+- `assets/site.css`
+- `resume/index.html`
+- `writing/index.html`
+- `speaking/index.html`
+- `technical-writing/index.html`
+- `work/index.html`
+- `work/ai-academy/index.html`
+- `work/ai-organizational-readiness/index.html`
+- `work/mission-responsible-ai/index.html`
+- `work/the-whom/index.html`
+- `work/visa-learning-intake/index.html`
+- `work/ziplines-ai-automations/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+---
+
 Added a persistent `Subscribe to Flow & Function` action to every site header, linking to the newsletter at `https://flowandfunction.beehiiv.com`. Naming the newsletter in the header makes the destination clear before visitors click. LinkedIn remains a standard navigation link, followed by the emphasized subscription button as the final action. Added a homepage introduction for `Flow & Function` using the approved tagline `AI in working order.`, a concise description of its practical AI-at-work focus, a promise of one practical workflow to test and build each week, and a direct subscription button.
 
 Files changed:

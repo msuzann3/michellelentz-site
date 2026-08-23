@@ -270,6 +270,24 @@ p {
   color: rgba(255, 255, 255, 0.72);
 }
 
+.personal-note {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.65;
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+}
+
+.personal-note strong {
+  color: var(--white);
+}
+
+.personal-note a {
+  color: var(--periwinkle);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
 .muted {
   color: var(--text-mid);
 }
