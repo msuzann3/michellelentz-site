@@ -4,6 +4,29 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-10-13
 
+Reordered the site-wide header navigation to About, Portfolio, Speaking, Writing, and LinkedIn, while retaining Subscribe to Flow & Function as the final emphasized action.
+
+Files changed:
+
+- `index.html`
+- `resume/index.html`
+- `writing/index.html`
+- `speaking/index.html`
+- `work/index.html`
+- `technical-writing/index.html`
+- `work/ai-academy/index.html`
+- `work/ai-decision-tools/index.html`
+- `work/ai-organizational-readiness/index.html`
+- `work/mission-responsible-ai/index.html`
+- `work/the-whom/index.html`
+- `work/vinyl-curator/index.html`
+- `work/visa-learning-intake/index.html`
+- `work/ziplines-ai-automations/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
 Relabeled the Ziplines Portfolio card as Professional AI learning to match its placement in AI Learning, Governance & Change.
 
 Files changed:
