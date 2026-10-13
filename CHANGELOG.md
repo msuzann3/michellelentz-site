@@ -4,6 +4,14 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-10-13
 
+Applied the reviewed exact wording to the Visa learning-intake implementation step: create a standalone agent in Copilot Studio, then publish it to Teams for employee access.
+
+Files changed:
+
+- `work/visa-learning-intake/index.html`
+
+## 2026-10-13
+
 Approved the reviewed portfolio rebuild and both new introduction pages for commit and publication through GitHub Pages. Included the previously pending Copilot Studio/Teams wording clarification and prioritization-tool documentation. Local desktop/phone checks, page navigation, safe external-link attributes, local-link checks, and whitespace validation passed.
 
 Files included:
