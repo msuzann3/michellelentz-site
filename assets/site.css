@@ -1069,3 +1069,47 @@ p {
     justify-content: flex-start;
   }
 }
+
+/* Decision-tool methodology tables */
+.table-scroll { overflow-x: auto; margin: 1.5rem 0 2rem; }
+.method-table { width: 100%; border-collapse: collapse; background: #fff; text-align: left; }
+.method-table caption { text-align: left; padding: .75rem 0; font-weight: 600; }
+.method-table th, .method-table td { padding: .8rem 1rem; border-bottom: 1px solid #dbe4ee; vertical-align: top; }
+.method-table th { background: #0D1B35; color: #fff; }
+.method-table td:last-child { white-space: nowrap; }
+@media (max-width: 680px) { .method-table th, .method-table td { padding: .65rem; } }
+
+/* Space the decision-tools narrative independently of shared card layouts. */
+.decision-case .simple-case-copy h1 { font-size: clamp(2.3rem, 4.4vw, 4rem); }
+.decision-case .split { gap: 2rem 3rem; align-items: start; }
+.decision-case .split h3 { margin-bottom: .85rem; }
+.decision-case .split p + p { margin-top: 1rem; }
+.decision-case .split p + h3 { margin-top: 2rem; }
+.decision-case .split ul { margin-top: .85rem; margin-bottom: 1.25rem; }
+.decision-case .split + h3 { margin-top: 2.5rem; margin-bottom: .85rem; }
+.decision-block { margin-top: 2.5rem; }
+.decision-block > h3 { margin-bottom: 1rem; }
+.decision-block > p + p { margin-top: 1rem; }
+.decision-block > .split { margin: 1.75rem 0; }
+.decision-weight-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin: 1.5rem 0; }
+.decision-method { margin-top: 2.5rem; padding: 1.25rem 1.5rem; border: 1px solid #cbd9ea; border-radius: 12px; background: #fff; }
+.decision-method summary { cursor: pointer; font-weight: 600; }
+.decision-method[open] summary { margin-bottom: 1.25rem; }
+.decision-method > p { margin-top: 1rem; }
+@media (max-width: 680px) { .decision-weight-grid { grid-template-columns: 1fr; } .decision-method { padding: 1rem; } }
+
+/* Vinyl capstone: consistent narrative rhythm from introduction to closing action. */
+.vinyl-case .simple-case-copy > p + p { margin-top: 1.15rem; }
+.vinyl-case .section.tight { padding-top: 3rem; padding-bottom: 3rem; }
+.vinyl-case .simple-case-grid { align-items: start; gap: 2.5rem; }
+.vinyl-case .case-tags { margin-top: 1.5rem; }
+.vinyl-case .section-heading { margin-bottom: 2rem; }
+.vinyl-case .decision-weight-grid { margin-top: 0; margin-bottom: 0; }
+.vinyl-case .decision-block { margin-top: 2rem; }
+.vinyl-case .decision-block > h3 { margin-bottom: 1.5rem; }
+.vinyl-case .workflow-strip p { margin-top: .75rem; }
+@media (max-width: 680px) {
+  .vinyl-case .section.tight { padding-top: 2rem; padding-bottom: 2rem; }
+  .vinyl-case .simple-case-grid { gap: 1.75rem; }
+  .vinyl-case .section-heading { margin-bottom: 1.5rem; }
+}

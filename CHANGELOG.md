@@ -2,6 +2,127 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-10-13
+
+Approved the reviewed portfolio rebuild and both new introduction pages for commit and publication through GitHub Pages. Included the previously pending Copilot Studio/Teams wording clarification and prioritization-tool documentation. Local desktop/phone checks, page navigation, safe external-link attributes, local-link checks, and whitespace validation passed.
+
+Files included:
+
+- `work/index.html`
+- `work/ai-decision-tools/index.html`
+- `work/vinyl-curator/index.html`
+- `work/visa-learning-intake/index.html`
+- `index.html`
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
+Removed Watch the introduction and the evaluation-guide/video reference from the Vinyl Curator opening card. The page now links only to the current prototype and portfolio; verified no `#/intro` links remain.
+
+Files changed:
+
+- `work/vinyl-curator/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
+Removed the outdated evaluation-guide link and related description from the Vinyl Curator page’s closing section. Made Try the prototype the primary closing action and retained Return to Portfolio.
+
+Files changed:
+
+- `work/vinyl-curator/index.html`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
+Verified Vite, Tailwind, and Motion against active Capstone build configuration and component code. Clarified their respective roles in the Vinyl Curator front-end card: application build, styling, and screen/record animations.
+
+Files changed:
+
+- `work/vinyl-curator/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
+Adjusted Vinyl Curator page spacing across the introduction, architecture cards, and workflow steps. Corrected the tools credit to Claude Code and Design. Added the Discogs API catalog-import explanation after inspecting `Capstone/scripts/seedAlbums.mjs` and `src/recommender.ts`: selected artist/album queries are imported to Firestore, not 100 randomly chosen records or a fresh Discogs query per customer. No current live catalog count is claimed. Verified desktop and phone layouts, reviewed the rendered page, and passed `git diff --check`; changes remain local.
+
+Files changed:
+
+- `work/vinyl-curator/index.html`
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
+Located the existing Capstone app evaluation guide at `#/intro`; found no Vinyl Curator introduction in the personal site’s local Git history. Added a dedicated portfolio landing page explaining customer recommendations, owner intelligence, React/TypeScript front end, Express application server, Firebase Authentication/Firestore persistence, owner access, and prototype limits. Source details were checked against the Capstone README, package manifest, server, and tester introduction. Distinguishes catalog ranking from live generative-model calls and synthetic inventory/sales from stored customer-interest signals. Updated the portfolio card to open this introduction before the app. Verified desktop and phone rendering, local links, section anchors, safe external-link attributes, and no horizontal overflow; reviewed the rendered page and passed `git diff --check`. Changes remain local and unpublished.
+
+Files changed:
+
+- `work/vinyl-curator/index.html`
+- `work/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
+Changed the Vinyl Curator portfolio card metadata to `Graduate project: Capstone`, removing the degree and grade from that label. Verified the exact replacement.
+
+Files changed:
+
+- `work/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
+Revised the decision-tools case study following browser feedback. Rewrote the introduction and prioritization explanation for readers new to AI decision tools, replaced the prominent 12-row table with four category summaries, and retained the detailed table and formula in an expandable section. Explained risk gates with privacy and consequential-decision examples and clarified that the overall, Value, and Readiness scores are all out of 100, with 60/100 as the map cutoff. Added scoped paragraph/subheading spacing and reduced the long case-study title size. Verified desktop and phone rendering, 32px separation before the affected suitability subheading, expandable methodology behavior, all 12 detail rows, and no page overflow with details open. Passed `git diff --check`. Changes remain local.
+
+Files changed:
+
+- `work/ai-decision-tools/index.html`
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
+Rebuilt the Portfolio into the four agreed purpose-based sections and card order. Added Fact Checker Workflow with Try/View/Build links, a Governance & safety version of the existing paper card, and Conferences & Webinars linking to Speaking and the public presentation library. Marked graduate provenance only on Vinyl Curator, Musical Grammar Rectifier, and Code Translator; retained Structured Prompt Tool last as an Earlier prototype. Removed Muppet Magic and Lectora from the main Portfolio; Writing and Speaking remain unchanged.
+
+Added the combined AI Suitability & Automation Prioritization case study, using scoring logic retrieved from both public tools. Documented equal-point suitability bands and optional criteria, the ethics-veto limitation, all 12 prioritization weights, normalization, recommendation boundaries, critical-risk gates, ranking, storage, and CSV export. Included an illustrative 100-to-93 risk-gate example. Updated homepage portfolio copy and durable documentation. Verified both rebuilt pages in headless Chrome at 1440px and 390px: agreed card order, valid section anchors, safe external-link attributes, no horizontal page overflow, and no missing local links or duplicate IDs. Reviewed rendered screenshots and passed `git diff --check`. Built locally for review; no commit, push, or production publication.
+
+Files changed:
+
+- `work/index.html`
+- `work/ai-decision-tools/index.html`
+- `index.html`
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
+Added the public AI Automation Priority Matrix to the durable project context. Documented its post-suitability purpose, weighted methodology, critical responsible-use gates, multi-process ranking and value-versus-readiness matrix, CSV export, and browser-local persistence. The standalone tool remains at `https://ai-automation-priority-matrix.msuzann3.chatgpt.site/`. Replaced the tool's outdated `Elevating AI Prompting for Results` positioning in both the eyebrow and footer with `Practical AI Strategy for Real Work`, then republished and verified the standalone Site. Did not commit, push, or publish the personal-site repository.
+
+Files changed:
+
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-08-27
+
+Clarified the Learning Intake Triage Workflow implementation as a standalone Copilot Studio agent made available in Teams, preserving Teams as the user-facing channel where employees already work while distinguishing it from the authoring environment. Did not commit, push, or publish.
+
+Files changed:
+
+- `work/visa-learning-intake/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
 ## 2026-08-23
 
 Updated the copyright year range from 1998–2025 to 1998–2026 in every main-page footer and aligned the canonical wording in the README. Committed and pushed directly to `main` for GitHub Pages publication.
