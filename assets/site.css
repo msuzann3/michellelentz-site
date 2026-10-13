@@ -1113,3 +1113,7 @@ p {
   .vinyl-case .simple-case-grid { gap: 1.75rem; }
   .vinyl-case .section-heading { margin-bottom: 1.5rem; }
 }
+
+/* Keep the two selected newsletter issues balanced on larger screens. */
+.newsletter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 680px) { .newsletter-grid { grid-template-columns: 1fr; } }

@@ -4,6 +4,59 @@ Use this file to keep Codex sessions in sync across laptops. Add a dated entry a
 
 ## 2026-10-13
 
+Relabeled the Ziplines Portfolio card as Professional AI learning to match its placement in AI Learning, Governance & Change.
+
+Files changed:
+
+- `work/index.html`
+
+## 2026-10-13
+
+Renamed the About page Visa link label to Intake Process Workflow and lowercased with in Graduated with Distinction.
+
+Files changed:
+
+- `resume/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
+Clarified the Speaking page AI Essentials metadata as a recurring five-week course offered December 2024–January 2026.
+
+Files changed:
+
+- `speaking/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
+Applied About review feedback: restored hero buttons with Portfolio first/green and LinkedIn second; added L&D leader to Highlights; added Visa’s designed learning-intake workflow to Selected experience and its links; included the user-confirmed With Distinction graduation wording alongside the 4.0 GPA; changed credentialed foundation to foundations. These updates remain local for review.
+
+Files changed:
+
+- `resume/index.html`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
+Applied the approved whole-site content refinements. Made Portfolio the primary homepage action and replaced abstract current-focus copy with linked experience. Added Selected experience before About credentials. Added a dedicated Flow & Function Writing section with The Philosophy of AI as the lead essay and the Fact Checker build as a practical example; corrected homepage newsletter cadence to monthly with occasional bonus editions and removed the promise of a workflow every week, based on Issue 004. Split Upcoming from Featured & Recent on Speaking, preserving one Brain/Heart/Courage card and adding audience/topic context to prominent entries. Added the Portfolio closing contact action. Verified all six main pages at desktop and phone widths with no horizontal overflow or broken section anchors, checked local links and safe external-link attributes, reviewed rendered screenshots, and passed `git diff --check`. Changes are local for review.
+
+Files changed:
+
+- `index.html`
+- `resume/index.html`
+- `writing/index.html`
+- `speaking/index.html`
+- `work/index.html`
+- `assets/site.css`
+- `README.md`
+- `CHANGELOG.md`
+
+## 2026-10-13
+
 Applied the reviewed exact wording to the Visa learning-intake implementation step: create a standalone agent in Copilot Studio, then publish it to Teams for employee access.
 
 Files changed:
