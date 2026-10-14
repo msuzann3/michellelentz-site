@@ -1117,3 +1117,38 @@ p {
 /* Keep the two selected newsletter issues balanced on larger screens. */
 .newsletter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 @media (max-width: 680px) { .newsletter-grid { grid-template-columns: 1fr; } }
+
+/* Home and About: clear introductions, restrained portrait, editorial spacing. */
+.home-intro .avatar-card { min-height: 0; }
+.home-intro .hero-copy { max-width: 850px; }
+.home-intro h1 { max-width: 780px; }
+.home-more { margin-top: 1.5rem; }
+.about-intro .wrap { display: grid; max-width: 980px; }
+.about-intro h1 { font-size: clamp(2.3rem, 4.4vw, 3.5rem); }
+.about-portrait { width: 190px; margin-top: 1.5rem; }
+.about-portrait img { display: block; width: 100%; height: auto; border-radius: 12px; }
+.story-copy p + p { margin-top: 1rem; }
+.experience-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 3rem; margin-top: 2rem; }
+.experience-list article { border-top: 1px solid var(--border); padding-top: 1.25rem; }
+.experience-list h3 { font-size: 1.35rem; }
+.experience-list p { margin: .75rem 0; }
+.about-credentials .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 1.5rem; }
+.about-credentials h3 { font-size: 1.25rem; }
+@media (max-width: 680px) {
+  .about-intro .wrap { grid-template-columns: 1fr; gap: 1.5rem; }
+  .about-portrait { width: 120px; justify-self: start; }
+  .experience-list, .about-credentials .card-grid { grid-template-columns: 1fr; }
+}
+
+.home-approach-copy p + p { margin-top: 1.25rem; }
+
+/* Subtle display adjustment; retain the original portrait file. */
+.about-portrait img { filter: brightness(1.08); }
+
+/* Balanced spacing for the refreshed Home and About pages. */
+.reviewed-page .section { padding-top: 4rem; padding-bottom: 4rem; }
+.about-review-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 680px) {
+  .reviewed-page .section { padding-top: 2.75rem; padding-bottom: 2.75rem; }
+  .about-review-links { grid-template-columns: 1fr; }
+}

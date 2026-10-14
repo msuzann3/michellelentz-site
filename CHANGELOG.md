@@ -2,6 +2,26 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-10-14 — Home and About refresh
+
+Refreshed Home for job-application visitors with a direct AI strategy and enablement introduction, restored illustrated avatar, concise approach copy, and a shorter newsletter section. Removed duplicate portfolio examples and consulting promotion. Reworked About around Michelle’s professional story, 15+ years of learning/facilitation, compact credentials, and a modest black-shirt portrait in the white story section. Added the approved curiosity headline and personal paragraph covering George & Ringo, travel, books, sommelier training, skydiving, and competitive ballroom dancing. Removed repeated experience examples while retaining the final review links in a balanced 2×2 grid.
+
+Reduced excess section spacing on Home/About and applied a subtle CSS portrait-brightness adjustment without changing the source photo. Verified both pages at desktop, tablet, and phone widths, including paragraph spacing, card layout, portrait sizing, local assets, and safe external links. The original shared avatar is retained on all five consuming pages; generated alternatives were rejected because they changed the face and are excluded from this release. Eye-color and laptop-corner corrections are not included.
+
+Files changed: `index.html`, `resume/index.html`, `assets/site.css`, `assets/michelle-lentz-portrait.jpg`, `README.md`, and `CHANGELOG.md`.
+
+## 2026-10-14
+
+Replaced the shared iCloud Git-checkout convention with independent checkouts at `~/Developer/michelleslentz-site` on each Mac. GitHub transfers committed site changes; the retained iCloud folder stores shared private materials and reference files. Added project instructions directing old chats to the local checkout and documented the preserve-first fetch/handoff workflow. Installed and verified matching global guidance on Agent Carter and Ginger. Both independent clones passed Git integrity checks and preserved all website files. Ginger archived the retired shared Git metadata under its local `~/Developer/.git-metadata-backups/`. Saved Codex project-folder changes remain a manual UI step.
+
+Files changed:
+
+- `README.md`
+- `CHANGELOG.md`
+- `AGENTS.md`
+- `CROSS-MAC-SETUP.md`
+- `~/.codex/AGENTS.md` (machine-local global guidance)
+
 ## 2026-10-13
 
 Reordered the site-wide header navigation to About, Portfolio, Speaking, Writing, and LinkedIn, while retaining Subscribe to Flow & Function as the final emphasized action.

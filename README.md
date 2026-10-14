@@ -1,6 +1,6 @@
 # Michelle Lentz Personal Site
 
-Canonical cross-Mac location: iCloud Drive → `Documents/_AI-Workspace/Codex/michelleslentz-site`. The user-specific portion of the absolute path may differ between Macs, but the path from `Documents` onward must remain the same. At the start of every new task, confirm this location and read `README.md` and `CHANGELOG.md` before making changes; update both when the task materially changes project context, workflow, or files.
+Active cross-Mac checkouts: `~/Developer/michelleslentz-site` on each Mac, outside iCloud Drive. Each Mac has independent Git metadata; GitHub carries committed changes between computers. The former iCloud folder at `~/Documents/_AI-Workspace/Codex/michelleslentz-site` is retained for reference and shared private materials, not site editing. Read `README.md` and `CHANGELOG.md` at the start of each task and update both when project context, workflow, or files materially change.
 
 Static personal/professional website for Michelle Lentz.
 
@@ -63,7 +63,7 @@ Typography:
 
 Avatar:
 
-- Use `assets/michelle-avatar-emerald-outline.png`
+- Use `assets/michelle-avatar-emerald-outline.png`. The original illustration is restored and approved for the current review. Generated alternatives changed the face and were rejected; do not publish `assets/michelle-avatar-blue-eyes.png`.
 - The outlined emerald avatar can sit on navy hero sections, but keep avatar usage polished and intentional.
 - Shared avatar page heroes use a compact laptop-friendly title scale, reduced vertical padding, and a smaller responsive avatar so the next page section remains visible without sacrificing the blue header identity or navigation usability.
 - The homepage hero uses a tighter title scale, reduced vertical padding and action spacing, and a smaller avatar treatment so the beginning of the next section is visible in a typical 14-inch laptop viewport.
@@ -96,7 +96,7 @@ Avatar:
 - The homepage uses `AI in Business` consistently for Michelle's ASU MSc and post-graduate certification and does not mention the 4.0.
 - The About page retains the 4.0 in the MSc credential card, uses `AI in Business` consistently for both ASU credentials, removes the MBTI and Gallup insight-report cards, and uses a white Range section to separate it visually from the sky-blue Credentials section.
 - The public resume PDF omits Michelle's phone number. The private ATS Word resume and application copy retain it for direct job applications.
-- Private technical-writing application materials and the scripts used to prepare the resume and portfolio samples live at `private/technical-writing/` inside this canonical iCloud project. That folder is intentionally ignored by Git because it contains personal contact information; do not publish or commit it. Use this shared project copy instead of the temporary `Documents/Codex/2026-08-03/i-ne/` task folder.
+- Private technical-writing application materials and the scripts used to prepare the resume and portfolio samples live at `~/Documents/_AI-Workspace/Codex/michelleslentz-site/private/technical-writing/` in the retained shared iCloud folder. That folder is intentionally ignored by Git because it contains personal contact information; do not publish or commit it. Use this shared project copy instead of the temporary `Documents/Codex/2026-08-03/i-ne/` task folder.
 - The AI Governance document is hosted in this repository at `writing/from-risk-to-responsibility-ai-governance.pdf`; use `https://michelleslentz.com/writing/from-risk-to-responsibility-ai-governance.pdf` as its stable public and LinkedIn URL. Its PDF document properties identify the title as "AI Governance in Your Organization" and the author as Michelle Lentz.
 - The Writing page is organized into Featured Writing; Flow & Function; Books, Guides, and Long-Form Work; Articles; and Personal Projects and Archive. Featured Writing contains exactly three cards in this order: `From Risk to Responsibility`, `Partner with AI for Instructional Design`, and `From Content Creators to Capability Architects`. Its compact section navigator and end-of-section Back to top links remain same-tab, while every destination card opens safely in a new tab.
 - Mission Possible: Responsible AI is a self-directed portfolio sample Michelle created to demonstrate her current approach to scenario-based eLearning and responsible AI. Describe it precisely as a branching scenario experience with adaptive feedback and support based on learner decisions, not as broadly adaptive learning. The course remains a standalone ChatGPT Sites experience at `https://risk-responsibility-lab.msuzann3.chatgpt.site/`. Its Portfolio card opens the local `work/mission-responsible-ai/` introduction in a new tab; that page links to the source `From Risk to Responsibility` white paper and explains Michelle's design authorship, Codex-assisted implementation, performance-based support, branching consequences, required response remediation and justification, local progress persistence, and potential SCORM/xAPI/cmi5 instrumentation before linking to the course.
@@ -166,22 +166,23 @@ At GoDaddy, point `www` to the GitHub Pages default domain for this repo and poi
 
 ## Working Across Laptops
 
-Use GitHub as the source of truth and iCloud Drive as the cross-Mac working-file sync layer. The project folder must remain at iCloud Drive → `Documents/_AI-Workspace/Codex/michelleslentz-site`; the user-specific portion before `Documents` may differ between Macs.
+Use an independent clone at `~/Developer/michelleslentz-site` on each Mac. Keep the checkout and `.git` outside cloud-synced storage. Agent Carter can be offline while Ginger works; exchange changes through GitHub.
 
-Recommended workflow:
+1. Confirm the active local checkout; inspect status, branch, remote, and upstream and read README/CHANGELOG.
+2. Fetch the remote. If the checkout is clean and has no divergent local commits, fast-forward to the intended branch. Preserve unfinished work and resolve divergence explicitly.
+3. Make and verify edits; update the project documentation when appropriate.
+4. Commit and push when authorized. Pushing `main` triggers GitHub Pages publication, so verify the deployed result for website releases.
+5. Before changing Macs, identify unfinished or unpushed work. On the receiving Mac, fetch and confirm the intended commit before editing.
 
-1. Pull latest changes before editing.
-2. Read `README.md` and `CHANGELOG.md` at the beginning of every new task, before inspecting or changing project files.
-3. Make site edits.
-4. Update `README.md` and `CHANGELOG.md` whenever project context, workflow, or files change.
-5. Commit and push.
-6. Let GitHub Pages deploy from GitHub.
+Private ignored materials remain in the shared iCloud folder `~/Documents/_AI-Workspace/Codex/michelleslentz-site/private/technical-writing/`. They are not part of a Git clone and must not be committed or published. Access that folder explicitly; do not link it into the published checkout.
+
+Global Git workflow guidance is installed in `~/.codex/AGENTS.md` separately on each Mac. Existing chats may retain their old working directory; use explicit active paths and change the saved Codex project folder to the new local checkout for future chats.
 
 ## Codex Session Checklist
 
 When Codex edits this site:
 
-1. Confirm the project folder is `Documents/_AI-Workspace/Codex/michelleslentz-site`.
+1. Confirm the active checkout is `~/Developer/michelleslentz-site`, outside iCloud.
 2. Read `README.md` and `CHANGELOG.md` before making changes.
 3. Inspect relevant files before editing.
 4. Preserve the static structure and existing design patterns.
@@ -205,3 +206,11 @@ When Codex edits this site:
 - About identifies Michelle as an experienced facilitator and L&D leader, includes the designed Visa intake workflow in Selected experience, and records the user-confirmed MSc graduation with Distinction with a 4.0 GPA.
 
 - Ziplines AI Essentials was a recurring five-week course offered from December 2024 through January 2026; retain the recurring duration alongside the date range.
+
+## Home and About refresh (October 14, 2026)
+
+Home leads with “I help organizations put AI to work.” and the illustrated avatar, followed by approach, newsletter, and communication background. Its purpose is to support job applications: the hero links to the Portfolio, the duplicate selected-work section is omitted, and consulting promotion is omitted from the homepage. Approach paragraphs have explicit spacing. About uses a professional story with 15+ years of learning and facilitation, compact credentials, and an outside-of-work paragraph identifying dachshunds George & Ringo. The repeated experience examples are omitted; the final review-links grid provides routes to the work. The curiosity sentence is the personal-section headline; the inactive book-and-wine newsletter is omitted. Its optimized black-shirt portrait sits in the white My Story section, capped at 190px wide on larger screens and 120px on phones. Home retains the illustrated avatar alongside its introduction. Avoid using “Clarity” as a positioning word because it can be confused with client Clarity Consultants. Other page heroes retain the illustrated avatar.
+
+The About portrait uses a subtle CSS brightness adjustment (1.08), preserving the source photograph.
+
+Refreshed Home/About spacing uses 64px section padding on larger screens and 44px on phones. The four About review links form a 2×2 grid above 680px and stack on phones. The personal headline is “Curiosity has always taken me in new directions.”
