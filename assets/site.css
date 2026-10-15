@@ -303,7 +303,7 @@ p {
 }
 
 .hero h1 {
-  font-size: clamp(2.5rem, 5vw, 3.75rem);
+  font-size: clamp(2.3rem, 4.5vw, 3.5rem);
 }
 
 .hero-grid {
@@ -379,7 +379,7 @@ p {
 
 .avatar-card img {
   margin: auto auto 0;
-  max-height: 315px;
+  max-height: 360px;
   object-fit: contain;
   position: relative;
   width: 100%;
@@ -566,7 +566,7 @@ p {
 }
 
 .page-hero h1 {
-  font-size: clamp(2.6rem, 5.5vw, 4.25rem);
+  font-size: clamp(2.3rem, 4.6vw, 3.625rem);
 }
 
 .page-hero .lede {
@@ -581,18 +581,18 @@ p {
   align-items: center;
   display: grid;
   gap: 2rem;
-  grid-template-columns: minmax(0, 1fr) minmax(160px, 0.28fr);
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 0.42fr);
 }
 
 .page-avatar {
   align-self: center;
   justify-self: end;
-  max-width: 180px;
+  max-width: 260px;
   padding-top: 0;
 }
 
 .page-avatar img {
-  max-height: 180px;
+  max-height: 280px;
   object-fit: contain;
 }
 
@@ -922,11 +922,11 @@ p {
     order: -1;
     padding-top: 0;
     justify-self: start;
-    max-width: 135px;
+    max-width: 160px;
   }
 
   .page-avatar img {
-    max-height: 140px;
+    max-height: 175px;
   }
 
   .intro-grid,

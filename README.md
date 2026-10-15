@@ -65,8 +65,8 @@ Avatar:
 
 - Use `assets/michelle-avatar-emerald-outline.png`. The original illustration is restored and approved for the current review. Generated alternatives changed the face and were rejected; do not publish `assets/michelle-avatar-blue-eyes.png`.
 - The outlined emerald avatar can sit on navy hero sections, but keep avatar usage polished and intentional.
-- Shared avatar page heroes use a compact laptop-friendly title scale, reduced vertical padding, and a smaller responsive avatar so the next page section remains visible without sacrificing the blue header identity or navigation usability.
-- The homepage hero uses a tighter title scale, reduced vertical padding and action spacing, and a smaller avatar treatment so the beginning of the next section is visible in a typical 14-inch laptop viewport.
+- Shared avatar page heroes use a compact laptop-friendly title scale, reduced vertical padding, and a larger responsive avatar so the next page section remains visible without sacrificing the blue header identity or navigation usability.
+- The homepage hero uses a tighter title scale, reduced vertical padding and action spacing, and a balanced avatar treatment so the beginning of the next section is visible in a typical 14-inch laptop viewport.
 - Phone layouts use mobile-only spacing below 680px: cards, card grids, tags, links, and section padding are more compact while body copy remains at an accessible 16px. Tablet, laptop, and desktop rendering is unchanged.
 
 ## Content Guidelines

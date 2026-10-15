@@ -2,6 +2,12 @@
 
 Use this file to keep Codex sessions in sync across laptops. Add a dated entry after each meaningful editing session, with a short summary and exact files changed.
 
+## 2026-10-15 — Hero proportions
+
+Reduced hero headline sizes and enlarged the existing illustrated avatar to balance text and illustration on Home, Portfolio, Speaking, Writing, and Technical Writing. Shared page avatars now allow 260px width on desktop and 160px on stacked layouts. Preserved the approved image and all copy.
+
+Files changed: `assets/site.css`, `README.md`, and `CHANGELOG.md`.
+
 ## 2026-10-14 — Home and About refresh
 
 Refreshed Home for job-application visitors with a direct AI strategy and enablement introduction, restored illustrated avatar, concise approach copy, and a shorter newsletter section. Removed duplicate portfolio examples and consulting promotion. Reworked About around Michelle’s professional story, 15+ years of learning/facilitation, compact credentials, and a modest black-shirt portrait in the white story section. Added the approved curiosity headline and personal paragraph covering George & Ringo, travel, books, sommelier training, skydiving, and competitive ballroom dancing. Removed repeated experience examples while retaining the final review links in a balanced 2×2 grid.
